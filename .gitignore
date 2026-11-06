@@ -22,7 +22,7 @@ local.properties
 # Godot archive & temporary work
 work/
 Arsiv/
-EvDuzeni/
+/EvDuzeni/
 *.tmp
 
 # iOS & macOS
