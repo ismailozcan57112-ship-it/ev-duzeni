@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">家事ルーティン: お掃除計画</string>
+
+    <string name="nav_today">今日</string>
+    <string name="nav_rooms">部屋</string>
+    <string name="nav_plan">計画一覧</string>
+    <string name="nav_settings">設定</string>
+
+    <string name="promo_badge">先行公開</string>
+    <string name="promo_dialog_title">リリース記念 無料お試し</string>
+    <string name="promo_dialog_subtitle">ようこそ！リリース先行期間中、すべての機能を完全無料でご利用いただけます。</string>
+    <string name="promo_feature_1">部屋数・家事数の無制限追加</string>
+    <string name="promo_feature_1_desc">おうちのあらゆる場所を制限なく管理できます。</string>
+    <string name="promo_feature_2">自由な繰り返し周期の設定</string>
+    <string name="promo_feature_2_desc">1日〜365日の間で自由に周期を設定可能です。</string>
+    <string name="promo_feature_3">お好みの日時での通知設定</string>
+    <string name="promo_feature_3_desc">毎日のリマインダー通知を希望の時間にセットできます。</string>
+    <string name="promo_future_notice_title">今後のアップデートに関するお知らせ</string>
+    <string name="promo_future_notice_desc">本バージョンは先行アクセス版です。今後の更新でPro機能が追加される可能性がありますが、このお試し期間中に作成したデータやお部屋・家事計画が消えることは一切ありません。端末内に安全に保持されます。</string>
+    <string name="promo_btn_dismiss">了解しました、ありがとう</string>
+    <string name="promo_settings_card_title">リリース記念版（全機能解放中）</string>
+    <string name="promo_settings_card_desc">無制限の部屋・家事追加、カスタム周期、通知機能がすべて無料です。</string>
+
+    <string name="today_greeting">小さな一歩で、気持ちのいい我が家に。</string>
+    <string name="today_all_done">今日の家事はすべて完了しました！ゆっくりお過ごしください。</string>
+    <string name="today_no_tasks">今日予定されている家事はありません。</string>
+    <string name="section_overdue">期限超過</string>
+    <string name="section_today">今日の家事</string>
+    <string name="section_completed_today">今日完了した家事</string>
+    <string name="undo">元に戻す</string>
+    <string name="task_completed_msg">完了しました！次回の予定日が計算されました。</string>
+    <string name="task_undo_msg">完了を取り消しました。</string>
+
+    <string name="rooms_title">お部屋</string>
+    <string name="rooms_subtitle">部屋ごとに少しずつ、丁寧にお手入れ。</string>
+    <string name="btn_add_room">部屋を追加</string>
+    <string name="room_tasks_count">%1$d件の家事</string>
+    <string name="room_overdue_badge">%1$d件遅延</string>
+
+    <string name="dialog_add_task">新しい家事</string>
+    <string name="dialog_edit_task">家事を編集</string>
+    <string name="dialog_add_room">新しい部屋</string>
+    <string name="dialog_edit_room">部屋を編集</string>
+    <string name="task_title_hint">家事の内容（例: キッチンの拭き掃除）</string>
+    <string name="room_name_hint">部屋の名前（例: リビング）</string>
+    <string name="select_room">部屋</string>
+    <string name="recurrence_label">繰り返しの周期</string>
+    <string name="interval_daily">毎日（1日ごと）</string>
+    <string name="interval_2days">2日ごと</string>
+    <string name="interval_3days">3日ごと</string>
+    <string name="interval_weekly">毎週（7日ごと）</string>
+    <string name="interval_2weeks">2週間ごと（14日ごと）</string>
+    <string name="interval_monthly">毎月（30日ごと）</string>
+    <string name="interval_custom">カスタム（%1$d日ごと）</string>
+    <string name="custom_days_prompt">日数（1〜365）</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">キャンセル</string>
+    <string name="btn_delete">削除</string>
+    <string name="confirm_delete_title">項目を削除しますか？</string>
+    <string name="confirm_delete_room_desc">この部屋を削除すると、含まれるすべての家事も削除されます。</string>
+    <string name="confirm_delete_task_desc">この家事を削除してもよろしいですか？</string>
+
+    <string name="plan_title">計画一覧</string>
+    <string name="plan_subtitle">おうち全体の定期的なお手入れルーティン。</string>
+    <string name="btn_add_task">家事を追加</string>
+    <string name="due_in_days">%1$d日後</string>
+    <string name="due_today_badge">今日</string>
+    <string name="due_overdue_badge">%1$d日遅れ</string>
+
+    <string name="settings_title">設定</string>
+    <string name="reminder_section_title">毎日のやさしいリマインダー</string>
+    <string name="reminder_section_desc">家事の予定がある日のみ、1回だけ通知をお届けします。</string>
+    <string name="reminder_time">通知時間</string>
+    <string name="btn_toggle_reminder_on">通知をオンにする</string>
+    <string name="btn_toggle_reminder_off">通知をオフにする</string>
+    <string name="backup_section_title">データのバックアップ</string>
+    <string name="backup_section_desc">ファイルに書き出して機種変更時にもスムーズに移行。100%オフライン対応。</string>
+    <string name="btn_export_backup">バックアップを書き出す (JSON)</string>
+    <string name="btn_import_backup">バックアップから復元</string>
+    <string name="backup_success">バックアップから正常に復元されました！</string>
+    <string name="backup_error">無効なバックアップファイルです。</string>
+    <string name="about_app">アプリについて</string>
+    <string name="app_version">バージョン 1.0.0 (Native Release)</string>
+    <string name="privacy_title">プライバシーポリシー</string>
+    <string name="privacy_summary">100%オフライン・安心設計。アカウント登録や外部サーバーへの送信はありません。</string>
+
+    <string name="onboarding_1_title">頭の中をすっきりと。</string>
+    <string name="onboarding_1_desc">やるべき家事を頭で覚える必要はありません。お部屋とルーティンをひとまとめに。</string>
+    <string name="onboarding_2_title">一度決めたら、あとはおまかせ。</string>
+    <string name="onboarding_2_desc">完了チェックをつけるだけで、次回の予定日が自動で計算されます。</string>
+    <string name="onboarding_3_title">マイペースに続けられる。</string>
+    <string name="onboarding_3_desc">予定がある日だけ通知を受け取り、無理なくお部屋を清潔に保ちましょう。</string>
+    <string name="btn_enable_notifications">通知を許可する</string>
+    <string name="btn_start_with_starter_plan">サンプル計画で始める</string>
+    <string name="btn_skip_setup">スキップ</string>
+    <string name="btn_continue">次へ</string>
+
+    <string name="room_kitchen">キッチン</string>
+    <string name="room_living">リビング</string>
+    <string name="room_bathroom">お風呂・洗面所</string>
+    <string name="room_bedroom">寝室</string>
+
+    <string name="task_wipe_counters">調理台を拭く</string>
+    <string name="task_take_trash">ゴミ出しをする</string>
+    <string name="task_vacuum_living">リビングに掃除機をかける</string>
+    <string name="task_dust_surfaces">棚とテーブルのホコリを取る</string>
+    <string name="task_clean_sink">洗面台と鏡を磨く</string>
+    <string name="task_mop_bathroom">浴室の床を掃除する</string>
+    <string name="task_change_sheets">シーツを交換する</string>
+    <string name="task_ventilate">寝室を換気する</string>
+
+    <string name="notif_channel_name">お掃除リマインダー</string>
+    <string name="notif_channel_desc">今日の家事予定をお知らせする通知。</string>
+    <string name="notif_title">今日のお掃除ルーティン</string>
+    <string name="notif_body_single">今日予定されている家事は1件です: %1$s</string>
+    <string name="notif_body_multi">今日予定されている家事は%1$d件です: %2$s</string>
+
+    <string name="app_short_name">家事ルーティン</string>
+    <string name="settings_language_title">言語</string>
+    <string name="settings_language_desc">アプリの表示言語を選択</string>
+    <string name="language_system_default">システム言語（デフォルト）</string>
+    <string name="language_dialog_title">言語を選択</string>
+</resources>

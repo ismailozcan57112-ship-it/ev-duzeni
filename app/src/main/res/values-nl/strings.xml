@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Huishoudroutine: Schoonmaak</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Vandaag</string>
+    <string name="nav_rooms">Kamers</string>
+    <string name="nav_plan">Mijn Plan</string>
+    <string name="nav_settings">Instellingen</string>
+
+    <!-- Promotional Launch Mode -->
+    <string name="promo_badge">PREVIEW</string>
+    <string name="promo_dialog_title">Gratis Introductieperiode</string>
+    <string name="promo_dialog_subtitle">Welkom! Tijdens onze lancerings- en proefperiode zijn alle functies voor iedereen 100% volledig gratis.</string>
+    <string name="promo_feature_1">Onbeperkt Kamers &amp; Taken</string>
+    <string name="promo_feature_1_desc">Organiseer elke hoek van je huis zonder enige beperking.</string>
+    <string name="promo_feature_2">Aangepaste Herhaalschema\'s</string>
+    <string name="promo_feature_2_desc">Stel herhaalintervallen in van 1 tot 365 dagen.</string>
+    <string name="promo_feature_3">Aangepaste Herinneringstijd</string>
+    <string name="promo_feature_3_desc">Kies het tijdstip van de dag voor je dagelijkse herinnering.</string>
+    <string name="promo_future_notice_title">Mededeling over Toekomstige Versies</string>
+    <string name="promo_future_notice_desc">Dit is een versie voor vroege toegang (early preview). In toekomstige updates kunnen optionele Pro-functies worden geïntroduceerd. Al je aangemaakte kamers, taken en plannen blijven echter altijd veilig op je apparaat bewaard en gaan nooit verloren.</string>
+    <string name="promo_btn_dismiss">Begrepen, dank je wel</string>
+    <string name="promo_settings_card_title">Introductie Editie (Alle Functies Ontgrendeld)</string>
+    <string name="promo_settings_card_desc">Onbeperkte kamers, aangepaste intervallen en herinneringen zijn momenteel gratis.</string>
+
+    <!-- Today Screen -->
+    <string name="today_greeting">Kleine stapjes, een frisser huis.</string>
+    <string name="today_all_done">Alle taken voor vandaag voltooid! Ontspan en geniet van je schone huis.</string>
+    <string name="today_no_tasks">Geen taken gepland voor vandaag.</string>
+    <string name="section_overdue">Achterstallig</string>
+    <string name="section_today">Vandaag gepland</string>
+    <string name="section_completed_today">Vandaag voltooid</string>
+    <string name="undo">Ongedaan maken</string>
+    <string name="task_completed_msg">Voltooid! Volgende cyclus is automatisch ingepland.</string>
+    <string name="task_undo_msg">Voltooiing ongedaan gemaakt.</string>
+
+    <!-- Rooms Screen -->
+    <string name="rooms_title">Kamers</string>
+    <string name="rooms_subtitle">Geef elke kamer een beetje zorg. Creëer je eigen ritme.</string>
+    <string name="btn_add_room">Kamer Toevoegen</string>
+    <string name="room_tasks_count">%1$d taken</string>
+    <string name="room_overdue_badge">%1$d achterstallig</string>
+
+    <!-- Tasks & Routine Dialogs -->
+    <string name="dialog_add_task">Nieuwe Taak</string>
+    <string name="dialog_edit_task">Taak Bewerken</string>
+    <string name="dialog_add_room">Nieuwe Kamer</string>
+    <string name="dialog_edit_room">Kamer Bewerken</string>
+    <string name="task_title_hint">Naam taak (bijv. Aanrecht afnemen)</string>
+    <string name="room_name_hint">Naam kamer (bijv. Woonkamer)</string>
+    <string name="select_room">Kamer</string>
+    <string name="recurrence_label">Herhaalinterval</string>
+    <string name="interval_daily">Elke dag (1 dag)</string>
+    <string name="interval_2days">Elke 2 dagen</string>
+    <string name="interval_3days">Elke 3 dagen</string>
+    <string name="interval_weekly">Elke week (7 dagen)</string>
+    <string name="interval_2weeks">Elke 2 weken (14 dagen)</string>
+    <string name="interval_monthly">Elke maand (30 dagen)</string>
+    <string name="interval_custom">Aangepast (%1$d dagen)</string>
+    <string name="custom_days_prompt">Aantal dagen (1-365)</string>
+    <string name="btn_save">Opslaan</string>
+    <string name="btn_cancel">Annuleren</string>
+    <string name="btn_delete">Verwijderen</string>
+    <string name="confirm_delete_title">Item verwijderen?</string>
+    <string name="confirm_delete_room_desc">Het verwijderen van deze kamer verwijdert ook alle taken die erin staan.</string>
+    <string name="confirm_delete_task_desc">Weet je zeker dat je deze taak wilt verwijderen?</string>
+
+    <!-- Plan Screen -->
+    <string name="plan_title">Mijn Plan</string>
+    <string name="plan_subtitle">Alle terugkerende routines in je hele huis.</string>
+    <string name="btn_add_task">Taak Toevoegen</string>
+    <string name="due_in_days">Vervalt over %1$d dagen</string>
+    <string name="due_today_badge">Vandaag</string>
+    <string name="due_overdue_badge">%1$d dagen achterstallig</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Instellingen</string>
+    <string name="reminder_section_title">Dagelijkse Vriendelijke Herinnering</string>
+    <string name="reminder_section_desc">Ontvang alleen een melding op dagen dat er taken zijn gepland.</string>
+    <string name="reminder_time">Herinneringstijd</string>
+    <string name="btn_toggle_reminder_on">Herinneringen Inschakelen</string>
+    <string name="btn_toggle_reminder_off">Herinneringen Uitschakelen</string>
+    <string name="backup_section_title">Houd je Plan Veilig</string>
+    <string name="backup_section_desc">Exporteer je plan naar een bestand. Eenvoudig over te zetten bij een nieuwe telefoon. 100% offline.</string>
+    <string name="btn_export_backup">Back-up exporteren (JSON)</string>
+    <string name="btn_import_backup">Herstellen via back-up</string>
+    <string name="backup_success">Back-up succesvol hersteld!</string>
+    <string name="backup_error">Ongeldig back-upbestand. Plan is niet gewijzigd.</string>
+    <string name="about_app">Over Huishoudroutine</string>
+    <string name="app_version">Versie 1.0.0 (Native Release)</string>
+    <string name="privacy_title">Privacybeleid</string>
+    <string name="privacy_summary">100% offline &amp; privé. Geen account, geen cloudservers, geen gegevensverzameling.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">Ruimte voor Rust.</string>
+    <string name="onboarding_1_desc">Bewaar huishoudtaken niet in je hoofd. Verzamel kamers en gewoontes op één plek.</string>
+    <string name="onboarding_2_title">Eén Keer Plannen, Daarna Ontspannen.</string>
+    <string name="onboarding_2_desc">Stel taken in per dag, week of maand. Vink af en de volgende datum verschijnt vanzelf.</string>
+    <string name="onboarding_3_title">Blijf in Controle.</string>
+    <string name="onboarding_3_desc">Ontvang een subtiele herinnering op taakdagen zodat het huishouden nooit overweldigend voelt.</string>
+    <string name="btn_enable_notifications">Meldingen Toestaan</string>
+    <string name="btn_start_with_starter_plan">Begin met Voorbeeldplan</string>
+    <string name="btn_skip_setup">Overslaan</string>
+    <string name="btn_continue">Doorgaan</string>
+
+    <!-- Sample Default Content -->
+    <string name="room_kitchen">Keuken</string>
+    <string name="room_living">Woonkamer</string>
+    <string name="room_bathroom">Badkamer</string>
+    <string name="room_bedroom">Slaapkamer</string>
+
+    <string name="task_wipe_counters">Keukenblad afnemen</string>
+    <string name="task_take_trash">Vuilnis buiten zetten</string>
+    <string name="task_vacuum_living">Woonkamer stofzuigen</string>
+    <string name="task_dust_surfaces">Kasten en tafels afstoffen</string>
+    <string name="task_clean_sink">Wastafel en spiegel schoonmaken</string>
+    <string name="task_mop_bathroom">Badkamervloer dweilen</string>
+    <string name="task_change_sheets">Beddengoed verschonen</string>
+    <string name="task_ventilate">Slaapkamer luchten</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Dagelijkse Taakherinneringen</string>
+    <string name="notif_channel_desc">Subtiele herinneringen voor huishoudelijke taken van vandaag.</string>
+    <string name="notif_title">Huishoudplan van Vandaag</string>
+    <string name="notif_body_single">Je hebt vandaag 1 taak gepland: %1$s</string>
+    <string name="notif_body_multi">Je hebt vandaag %1$d taken gepland: %2$s</string>
+
+    <string name="app_short_name">Huishoudroutine</string>
+    <string name="settings_language_title">Taal</string>
+    <string name="settings_language_desc">Kies uw voorkeurstaal</string>
+    <string name="language_system_default">Systeemtaal (Standaard)</string>
+    <string name="language_dialog_title">Selecteer taal</string>
+</resources>

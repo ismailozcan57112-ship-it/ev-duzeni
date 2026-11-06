@@ -1,0 +1,39 @@
+# Gradle & Android builds
+.gradle/
+build/
+app/build/
+release/
+Ozel-Imza/
+signing/
+*.apk
+*.aab
+*.idsig
+*.zip
+*.jks
+*.keystore
+local.properties
+
+# Kotlin & IDE
+.kotlin/
+.idea/
+*.iml
+.vscode/
+
+# Godot archive & temporary work
+work/
+Arsiv/
+EvDuzeni/
+*.tmp
+
+# iOS & macOS
+.DS_Store
+DerivedData/
+*.xcuserstate
+*.xcuserdatad
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+ios/build/
+ios/*.ipa
+ios/*.dSYM.zip
+profiles/

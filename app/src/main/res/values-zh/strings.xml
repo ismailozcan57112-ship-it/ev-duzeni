@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">家务管家: 清洁打扫打卡</string>
+
+    <string name="nav_today">今天</string>
+    <string name="nav_rooms">房间</string>
+    <string name="nav_plan">计划</string>
+    <string name="nav_settings">设置</string>
+
+    <string name="promo_badge">抢先体验</string>
+    <string name="promo_dialog_title">上线发布免费体验</string>
+    <string name="promo_dialog_subtitle">欢迎使用！在上线推广期间，所有功能均完全免费向所有用户开放。</string>
+    <string name="promo_feature_1">无限制添加房间与家务</string>
+    <string name="promo_feature_1_desc">轻松规划家中的每一个角落，无任何数量限制。</string>
+    <string name="promo_feature_2">自定义重复打扫周期</string>
+    <string name="promo_feature_2_desc">自由设置1至365天的打扫循环频率。</string>
+    <string name="promo_feature_3">专属定制提醒时间</string>
+    <string name="promo_feature_3_desc">选择最适合您的时间接收每日打扫提醒。</string>
+    <string name="promo_future_notice_title">关于未来版本的说明</string>
+    <string name="promo_future_notice_desc">本版本为抢先体验版。未来更新可能会引入可选的高级Pro功能。但在本体验期间您创建的所有数据、房间与打扫计划将始终安全保存在您的手机本地，绝不丢失。</string>
+    <string name="promo_btn_dismiss">了解，非常感谢</string>
+    <string name="promo_settings_card_title">发布专属版（全部功能开放）</string>
+    <string name="promo_settings_card_desc">无限制房间、自定义周期及通知功能目前完全免费。</string>
+
+    <string name="today_greeting">微步前行，让家常新。</string>
+    <string name="today_all_done">今天的家务已全部搞定！好好放松一下吧。</string>
+    <string name="today_no_tasks">今天没有安排的家务。</string>
+    <string name="section_overdue">已逾期</string>
+    <string name="section_today">今日待办</string>
+    <string name="section_completed_today">今日已完成</string>
+    <string name="undo">撤销</string>
+    <string name="task_completed_msg">已完成！下次打扫时间已自动计算。</string>
+    <string name="task_undo_msg">已撤销打卡。</string>
+
+    <string name="rooms_title">房间列表</string>
+    <string name="rooms_subtitle">给每个房间多一份呵护，建立自己的节奏。</string>
+    <string name="btn_add_room">添加房间</string>
+    <string name="room_tasks_count">%1$d 项家务</string>
+    <string name="room_overdue_badge">%1$d 项逾期</string>
+
+    <string name="dialog_add_task">新增家务</string>
+    <string name="dialog_edit_task">编辑家务</string>
+    <string name="dialog_add_room">新增房间</string>
+    <string name="dialog_edit_room">编辑房间</string>
+    <string name="task_title_hint">家务名称（如：擦厨房台面）</string>
+    <string name="room_name_hint">房间名称（如：客厅）</string>
+    <string name="select_room">房间</string>
+    <string name="recurrence_label">重复周期</string>
+    <string name="interval_daily">每天（1天）</string>
+    <string name="interval_2days">每2天</string>
+    <string name="interval_3days">每3天</string>
+    <string name="interval_weekly">每周（7天）</string>
+    <string name="interval_2weeks">每两周（14天）</string>
+    <string name="interval_monthly">每月（30天）</string>
+    <string name="interval_custom">自定义（%1$d天）</string>
+    <string name="custom_days_prompt">天数（1-365）</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_delete">删除</string>
+    <string name="confirm_delete_title">确认删除？</string>
+    <string name="confirm_delete_room_desc">删除该房间将同时删除其中包含的所有家务。</string>
+    <string name="confirm_delete_task_desc">确定要删除该家务吗？</string>
+
+    <string name="plan_title">全部计划</string>
+    <string name="plan_subtitle">全屋所有定期清洁打理日常。</string>
+    <string name="btn_add_task">添加家务</string>
+    <string name="due_in_days">%1$d天后到期</string>
+    <string name="due_today_badge">今天</string>
+    <string name="due_overdue_badge">已逾期%1$d天</string>
+
+    <string name="settings_title">设置</string>
+    <string name="reminder_section_title">每日贴心提醒</string>
+    <string name="reminder_section_desc">仅在当天有待办家务时才会发送一次轻量通知。</string>
+    <string name="reminder_time">提醒时间</string>
+    <string name="btn_toggle_reminder_on">开启提醒</string>
+    <string name="btn_toggle_reminder_off">关闭提醒</string>
+    <string name="backup_section_title">数据备份与迁移</string>
+    <string name="backup_section_desc">导出为文件以便换机时快速恢复。100%离线无需联网。</string>
+    <string name="btn_export_backup">导出备份文件 (JSON)</string>
+    <string name="btn_import_backup">从备份中恢复</string>
+    <string name="backup_success">已成功从备份恢复！</string>
+    <string name="backup_error">无效的备份文件。</string>
+    <string name="about_app">关于本应用</string>
+    <string name="app_version">版本 1.0.0 (Native Release)</string>
+    <string name="privacy_title">隐私政策</string>
+    <string name="privacy_summary">100%本地离线运行。无需注册账号，不收集任何个人数据。</string>
+
+    <string name="onboarding_1_title">给大脑减减负。</string>
+    <string name="onboarding_1_desc">无需把家务锁事放在心头。所有房间与打扫日常集中管理。</string>
+    <string name="onboarding_2_title">一次设置，省心无忧。</string>
+    <string name="onboarding_2_desc">只需随手打卡，系统自动计算下一次清洁时间。</string>
+    <string name="onboarding_3_title">节奏尽在掌握。</string>
+    <string name="onboarding_3_desc">在有家务的日子轻柔提醒，告别脏乱与焦虑。</string>
+    <string name="btn_enable_notifications">允许通知</string>
+    <string name="btn_start_with_starter_plan">使用预设模板开始</string>
+    <string name="btn_skip_setup">跳过</string>
+    <string name="btn_continue">继续</string>
+
+    <string name="room_kitchen">厨房</string>
+    <string name="room_living">客厅</string>
+    <string name="room_bathroom">卫生间</string>
+    <string name="room_bedroom">卧室</string>
+
+    <string name="task_wipe_counters">擦洗厨房操作台</string>
+    <string name="task_take_trash">扔垃圾</string>
+    <string name="task_vacuum_living">吸尘器清洁客厅地板</string>
+    <string name="task_dust_surfaces">茶几和置物架除尘</string>
+    <string name="task_clean_sink">清洁洗手台与浴室镜</string>
+    <string name="task_mop_bathroom">拖洗卫生间地面</string>
+    <string name="task_change_sheets">更换床上四件套</string>
+    <string name="task_ventilate">卧室开窗通风</string>
+
+    <string name="notif_channel_name">清洁计划提醒</string>
+    <string name="notif_channel_desc">用于通知今日清洁任务的日常提醒。</string>
+    <string name="notif_title">今日打扫计划</string>
+    <string name="notif_body_single">今天有 1 项待办家务：%1$s</string>
+    <string name="notif_body_multi">今天有 %1$d 项待办家务：%2$s</string>
+
+    <string name="app_short_name">家务管家</string>
+    <string name="settings_language_title">语言</string>
+    <string name="settings_language_desc">选择您偏好的语言</string>
+    <string name="language_system_default">系统默认语言</string>
+    <string name="language_dialog_title">选择语言</string>
+</resources>

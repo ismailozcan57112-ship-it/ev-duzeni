@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">घर की दिनचर्या: सफाई व काम</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">आज</string>
+    <string name="nav_rooms">कमरे</string>
+    <string name="nav_plan">मेरी योजना</string>
+    <string name="nav_settings">सेटिंग्स</string>
+
+    <!-- Promotional Launch Mode -->
+    <string name="promo_badge">पूर्वावलोकन</string>
+    <string name="promo_dialog_title">लॉन्च विशेष मुफ्त ट्रायल</string>
+    <string name="promo_dialog_subtitle">स्वागत है! लॉन्च और प्रचार अवधि के दौरान सभी सुविधाएँ सभी के लिए 100% पूरी तरह मुफ़्त हैं।</string>
+    <string name="promo_feature_1">असीमित कमरे और कार्य</string>
+    <string name="promo_feature_1_desc">बिना किसी सीमा के घर के हर कोने की सफाई की योजना बनाएं।</string>
+    <string name="promo_feature_2">कस्टम दोहराव शेड्यूल</string>
+    <string name="promo_feature_2_desc">1 से 365 दिनों के बीच अपनी पसंद का अंतराल सेट करें।</string>
+    <string name="promo_feature_3">कस्टम रिमाइंडर समय</string>
+    <string name="promo_feature_3_desc">दैनिक रिमाइंडर के लिए अपनी पसंद का समय चुनें।</string>
+    <string name="promo_future_notice_title">आगामी संस्करणों के बारे में सूचना</string>
+    <string name="promo_future_notice_desc">यह एक अर्ली एक्सेस पूर्वावलोकन संस्करण है। भविष्य के अपडेट में वैकल्पिक प्रो/सदस्यता सुविधाएँ लाई जा सकती हैं। हालांकि, इस ट्रायल अवधि के दौरान आपके द्वारा बनाए गए सभी डेटा, कमरे और कार्य आपके डिवाइस पर हमेशा सुरक्षित रहेंगे और कभी नष्ट नहीं होंगे।</string>
+    <string name="promo_btn_dismiss">समझ गया, धन्यवाद</string>
+    <string name="promo_settings_card_title">लॉन्च संस्करण (सभी सुविधाएँ अनलॉक)</string>
+    <string name="promo_settings_card_desc">असीमित कमरे, कस्टम अंतराल और रिमाइंडर वर्तमान में मुफ़्त हैं।</string>
+
+    <!-- Today Screen -->
+    <string name="today_greeting">छोटे कदम, एक तरोताज़ा घर।</string>
+    <string name="today_all_done">आज के सभी काम पूरे हो गए! आराम करें और साफ़ घर का आनंद लें।</string>
+    <string name="today_no_tasks">आज के लिए कोई काम निर्धारित नहीं है।</string>
+    <string name="section_overdue">अतिदेय (बाकी)</string>
+    <string name="section_today">आज के काम</string>
+    <string name="section_completed_today">आज पूरे किए गए</string>
+    <string name="undo">पूर्ववत करें</string>
+    <string name="task_completed_msg">काम पूरा हुआ! अगला चक्र स्वचालित रूप से निर्धारित हुआ।</string>
+    <string name="task_undo_msg">पूर्णता पूर्ववत की गई।</string>
+
+    <!-- Rooms Screen -->
+    <string name="rooms_title">कमरे</string>
+    <string name="rooms_subtitle">हर कमरे की थोड़ी देखभाल करें। अपनी लय बनाएं।</string>
+    <string name="btn_add_room">कमरा जोड़ें</string>
+    <string name="room_tasks_count">%1$d कार्य</string>
+    <string name="room_overdue_badge">%1$d बाकी</string>
+
+    <!-- Tasks & Routine Dialogs -->
+    <string name="dialog_add_task">नया कार्य</string>
+    <string name="dialog_edit_task">कार्य संपादित करें</string>
+    <string name="dialog_add_room">नया कमरा</string>
+    <string name="dialog_edit_room">कमरा संपादित करें</string>
+    <string name="task_title_hint">कार्य का नाम (उदा. किचन काउंटर पोंछें)</string>
+    <string name="room_name_hint">कमरे का नाम (उदा. बैठक)</string>
+    <string name="select_room">कमरा</string>
+    <string name="recurrence_label">दोहराव अंतराल</string>
+    <string name="interval_daily">हर दिन (1 दिन)</string>
+    <string name="interval_2days">हर 2 दिन में</string>
+    <string name="interval_3days">हर 3 दिन में</string>
+    <string name="interval_weekly">हर सप्ताह (7 दिन)</string>
+    <string name="interval_2weeks">हर 2 सप्ताह में (14 दिन)</string>
+    <string name="interval_monthly">हर महीने (30 दिन)</string>
+    <string name="interval_custom">कस्टम (%1$d दिन)</string>
+    <string name="custom_days_prompt">दिनों की संख्या (1-365)</string>
+    <string name="btn_save">सहेजें</string>
+    <string name="btn_cancel">रद्द करें</string>
+    <string name="btn_delete">हटाएं</string>
+    <string name="confirm_delete_title">आइटम हटाएं?</string>
+    <string name="confirm_delete_room_desc">इस कमरे को हटाने से इसके अंदर के सभी कार्य भी हट जाएंगे।</string>
+    <string name="confirm_delete_task_desc">क्या आप वाकई इस कार्य को हटाना चाहते हैं?</string>
+
+    <!-- Plan Screen -->
+    <string name="plan_title">मेरी योजना</string>
+    <string name="plan_subtitle">घर की सभी नियमित दिनचर्याएँ।</string>
+    <string name="btn_add_task">कार्य जोड़ें</string>
+    <string name="due_in_days">%1$d दिन बाद</string>
+    <string name="due_today_badge">आज</string>
+    <string name="due_overdue_badge">%1$d दिन की देरी</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="reminder_section_title">दैनिक शांत रिमाइंडर</string>
+    <string name="reminder_section_desc">केवल उन दिनों एक सूचना प्राप्त करें जब आपके कार्य निर्धारित हों।</string>
+    <string name="reminder_time">रिमाइंडर का समय</string>
+    <string name="btn_toggle_reminder_on">रिमाइंडर चालू करें</string>
+    <string name="btn_toggle_reminder_off">रिमाइंडर बंद करें</string>
+    <string name="backup_section_title">डेटा सुरक्षित रखें</string>
+    <string name="backup_section_desc">फ़ाइल में निर्यात करें ताकि फ़ोन बदलते समय आसानी से डेटा ले जा सकें। 100% ऑफ़लाइन।</string>
+    <string name="btn_export_backup">बैकअप निर्यात करें (JSON)</string>
+    <string name="btn_import_backup">बैकअप से पुनर्स्थापित करें</string>
+    <string name="backup_success">बैकअप सफलतापूर्वक बहाल किया गया!</string>
+    <string name="backup_error">अमान्य बैकअप फ़ाइल।</string>
+    <string name="about_app">ऐप के बारे में</string>
+    <string name="app_version">संस्करण 1.0.0 (Native Release)</string>
+    <string name="privacy_title">गोपनीयता नीति</string>
+    <string name="privacy_summary">100% ऑफ़लाइन और निजी। कोई खाता, क्लाउड सर्वर या डेटा संग्रह नहीं।</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">मन को सुकून दें।</string>
+    <string name="onboarding_1_desc">घर के कामों को याद रखने का तनाव न लें। अपने सभी कमरों और दिनचर्या को एक जगह व्यवस्थित करें।</string>
+    <string name="onboarding_2_title">एक बार योजना बनाएं, तनावमुक्त रहें।</string>
+    <string name="onboarding_2_desc">काम पूरा होने पर सही का निशान लगाएं, अगली तारीख अपने आप तय हो जाएगी।</string>
+    <string name="onboarding_3_title">नियंत्रण आपके हाथ में।</string>
+    <string name="onboarding_3_desc">काम वाले दिनों में हल्के रिमाइंडर प्राप्त करें ताकि आप कभी असहज महसूस न करें।</string>
+    <string name="btn_enable_notifications">सूचनाओं की अनुमति दें</string>
+    <string name="btn_start_with_starter_plan">नमूना योजना के साथ शुरू करें</string>
+    <string name="btn_skip_setup">छोड़ें</string>
+    <string name="btn_continue">जारी रखें</string>
+
+    <!-- Sample Default Content -->
+    <string name="room_kitchen">रसोईघर (किचन)</string>
+    <string name="room_living">बैठक (लिविंग रूम)</string>
+    <string name="room_bathroom">स्नानघर (बाथरूम)</string>
+    <string name="room_bedroom">शयनकक्ष (बेडरूम)</string>
+
+    <string name="task_wipe_counters">रसोई का काउंटर पोंछें</string>
+    <string name="task_take_trash">कचरा बाहर निकालें</string>
+    <string name="task_vacuum_living">बैठक के फर्श पर वैक्यूम करें</string>
+    <string name="task_dust_surfaces">मेज और अलमारियों की धूल झाड़ें</string>
+    <string name="task_clean_sink">वॉशबेसिन और शीशा साफ़ करें</string>
+    <string name="task_mop_bathroom">बाथरूम का फर्श पोंछें</string>
+    <string name="task_change_sheets">बिस्तर की चादर बदलें</string>
+    <string name="task_ventilate">कमरे में ताज़ी हवा आने दें</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">सफाई कार्य रिमाइंडर</string>
+    <string name="notif_channel_desc">आज के सफाई कार्यों के लिए शांत सूचनाएं।</string>
+    <string name="notif_title">आज की घर की योजना</string>
+    <string name="notif_body_single">आज के लिए आपका 1 कार्य निर्धारित है: %1$s</string>
+    <string name="notif_body_multi">आज के लिए आपके %1$d कार्य निर्धारित हैं: %2$s</string>
+
+    <string name="app_short_name">घर की दिनचर्या</string>
+    <string name="settings_language_title">भाषा</string>
+    <string name="settings_language_desc">अपनी पसंदीदा भाषा चुनें</string>
+    <string name="language_system_default">सिस्टम भाषा (डिफ़ॉल्ट)</string>
+    <string name="language_dialog_title">भाषा चुनें</string>
+</resources>

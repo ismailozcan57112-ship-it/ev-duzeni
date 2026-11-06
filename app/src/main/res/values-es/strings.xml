@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Limpieza del Hogar: Rutinas</string>
+
+    <string name="nav_today">Hoy</string>
+    <string name="nav_rooms">Habitaciones</string>
+    <string name="nav_plan">Mi Plan</string>
+    <string name="nav_settings">Ajustes</string>
+
+    <string name="promo_badge">AVANCE</string>
+    <string name="promo_dialog_title">Prueba Gratuita de Lanzamiento</string>
+    <string name="promo_dialog_subtitle">¡Bienvenido! Durante el periodo de lanzamiento y avance, todas las funciones son 100% gratuitas.</string>
+    <string name="promo_feature_1">Habitaciones y Tareas Ilimitadas</string>
+    <string name="promo_feature_1_desc">Organiza cada rincón de tu casa sin límites.</string>
+    <string name="promo_feature_2">Frecuencias Personalizadas</string>
+    <string name="promo_feature_2_desc">Configura repeticiones de 1 a 365 días.</string>
+    <string name="promo_feature_3">Hora de Recordatorio a Medida</string>
+    <string name="promo_feature_3_desc">Elige la hora exacta para tu aviso diario.</string>
+    <string name="promo_future_notice_title">Aviso sobre Futuras Versiones</string>
+    <string name="promo_future_notice_desc">Esta versión es un avance temprano. En futuras actualizaciones podrían añadirse funciones Pro. No obstante, todos los datos y tareas creados durante esta prueba permanecerán en tu dispositivo de forma segura y nunca se perderán.</string>
+    <string name="promo_btn_dismiss">Entendido, Gracias</string>
+    <string name="promo_settings_card_title">Edición de Lanzamiento (Todo Desbloqueado)</string>
+    <string name="promo_settings_card_desc">Habitaciones ilimitadas, intervalos y recordatorios gratis por lanzamiento.</string>
+
+    <string name="today_greeting">Pequeños pasos, un hogar fresco.</string>
+    <string name="today_all_done">¡Todo listo por hoy! Descansa y disfruta de tu hogar.</string>
+    <string name="today_no_tasks">No hay tareas programadas para hoy.</string>
+    <string name="section_overdue">Atrasadas</string>
+    <string name="section_today">Para hoy</string>
+    <string name="section_completed_today">Completadas hoy</string>
+    <string name="undo">Deshacer</string>
+    <string name="task_completed_msg">¡Hecho! Próxima fecha calculada.</string>
+    <string name="task_undo_msg">Acción deshecha.</string>
+
+    <string name="rooms_title">Habitaciones</string>
+    <string name="rooms_subtitle">Cuida cada espacio de tu casa.</string>
+    <string name="btn_add_room">Añadir Habitación</string>
+    <string name="room_tasks_count">%1$d tareas</string>
+    <string name="room_overdue_badge">%1$d atrasadas</string>
+
+    <string name="dialog_add_task">Nueva Tarea</string>
+    <string name="dialog_edit_task">Editar Tarea</string>
+    <string name="dialog_add_room">Nueva Habitación</string>
+    <string name="dialog_edit_room">Editar Habitación</string>
+    <string name="task_title_hint">Nombre de la tarea (ej. Limpiar encimera)</string>
+    <string name="room_name_hint">Nombre (ej. Salón)</string>
+    <string name="select_room">Habitación</string>
+    <string name="recurrence_label">Repetición</string>
+    <string name="interval_daily">Cada día (1 día)</string>
+    <string name="interval_2days">Cada 2 días</string>
+    <string name="interval_3days">Cada 3 días</string>
+    <string name="interval_weekly">Semanal (7 días)</string>
+    <string name="interval_2weeks">Cada 2 semanas (14 días)</string>
+    <string name="interval_monthly">Mensual (30 días)</string>
+    <string name="interval_custom">Personalizado (%1$d días)</string>
+    <string name="custom_days_prompt">Días (1-365)</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="confirm_delete_title">¿Eliminar elemento?</string>
+    <string name="confirm_delete_room_desc">Eliminar esta habitación también borrará todas sus tareas asociadas.</string>
+    <string name="confirm_delete_task_desc">¿Seguro que deseas eliminar esta tarea?</string>
+
+    <string name="plan_title">Mi Plan</string>
+    <string name="plan_subtitle">Todas las rutinas de tu hogar.</string>
+    <string name="btn_add_task">Añadir Tarea</string>
+    <string name="due_in_days">Toca en %1$d días</string>
+    <string name="due_today_badge">Hoy</string>
+    <string name="due_overdue_badge">%1$d días de retraso</string>
+
+    <string name="settings_title">Ajustes</string>
+    <string name="reminder_section_title">Recordatorio Diario Amable</string>
+    <string name="reminder_section_desc">Recibe una sola notificación únicamente los días que tengas tareas pendientes.</string>
+    <string name="reminder_time">Hora del recordatorio</string>
+    <string name="btn_toggle_reminder_on">Activar Recordatorios</string>
+    <string name="btn_toggle_reminder_off">Desactivar Recordatorios</string>
+    <string name="backup_section_title">Copia de Seguridad</string>
+    <string name="backup_section_desc">Exporta tu plan a un archivo para cambiar de teléfono sin perder nada. 100% offline.</string>
+    <string name="btn_export_backup">Exportar Copia (JSON)</string>
+    <string name="btn_import_backup">Restaurar Copia</string>
+    <string name="backup_success">¡Copia restaurada con éxito!</string>
+    <string name="backup_error">Archivo de copia no válido.</string>
+    <string name="about_app">Acerca de la Aplicación</string>
+    <string name="app_version">Versión 1.0.0 (Native Release)</string>
+    <string name="privacy_title">Política de Privacidad</string>
+    <string name="privacy_summary">100% privado y sin conexión. Sin cuentas ni recopilación de datos.</string>
+
+    <string name="onboarding_1_title">Espacio y Tranquilidad.</string>
+    <string name="onboarding_1_desc">No lleves las tareas en la cabeza. Organiza tus rutinas en un solo lugar.</string>
+    <string name="onboarding_2_title">Planea una vez, relájate.</string>
+    <string name="onboarding_2_desc">Configura la frecuencia. Al completar una tarea, la siguiente fecha se calcula automáticamente.</string>
+    <string name="onboarding_3_title">El control es tuyo.</string>
+    <string name="onboarding_3_desc">Activa recordatorios para no olvidar las tareas importantes.</string>
+    <string name="btn_enable_notifications">Permitir Avisos</string>
+    <string name="btn_start_with_starter_plan">Comenzar con Plan de Ejemplo</string>
+    <string name="btn_skip_setup">Saltar</string>
+    <string name="btn_continue">Continuar</string>
+
+    <string name="room_kitchen">Cocina</string>
+    <string name="room_living">Salón</string>
+    <string name="room_bathroom">Baño</string>
+    <string name="room_bedroom">Dormitorio</string>
+
+    <string name="task_wipe_counters">Limpiar encimera de cocina</string>
+    <string name="task_take_trash">Bajar la basura</string>
+    <string name="task_vacuum_living">Pasar aspiradora en salón</string>
+    <string name="task_dust_surfaces">Limpiar el polvo de muebles</string>
+    <string name="task_clean_sink">Limpiar lavabo y espejo</string>
+    <string name="task_mop_bathroom">Fregar suelo del baño</string>
+    <string name="task_change_sheets">Cambiar sábanas</string>
+    <string name="task_ventilate">Ventilar habitación</string>
+
+    <string name="notif_channel_name">Avisos de Tareas del Hogar</string>
+    <string name="notif_channel_desc">Notificaciones amables para tareas de hoy.</string>
+    <string name="notif_title">Plan del Hogar para Hoy</string>
+    <string name="notif_body_single">Tienes 1 tarea pendiente para hoy: %1$s</string>
+    <string name="notif_body_multi">Tienes %1$d tareas pendientes para hoy: %2$s</string>
+
+    <string name="app_short_name">Limpieza del Hogar</string>
+    <string name="settings_language_title">Idioma</string>
+    <string name="settings_language_desc">Selecciona tu idioma preferido</string>
+    <string name="language_system_default">Idioma del sistema (Predeterminado)</string>
+    <string name="language_dialog_title">Seleccionar idioma</string>
+</resources>

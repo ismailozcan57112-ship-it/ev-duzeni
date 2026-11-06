@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تنظيم المنزل: جدول النظافة والمهام</string>
+
+    <string name="nav_today">اليوم</string>
+    <string name="nav_rooms">الغرف</string>
+    <string name="nav_plan">جدولي</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <string name="promo_badge">نسخة تجريبية</string>
+    <string name="promo_dialog_title">فترة الإطلاق التجريبية المجانية</string>
+    <string name="promo_dialog_subtitle">أهلاً بك! طوال فترة الإطلاق، جميع الميزات متاحة مجاناً بنسبة 100% للجميع.</string>
+    <string name="promo_feature_1">غرف ومهام غير محدودة</string>
+    <string name="promo_feature_1_desc">نظّم كل زاوية في منزلك دون أي قيود.</string>
+    <string name="promo_feature_2">فترات تكرار مخصصة</string>
+    <string name="promo_feature_2_desc">حدد فترات تكرار مرنة من 1 إلى 365 يوماً.</string>
+    <string name="promo_feature_3">وقت تذكير مخصص</string>
+    <string name="promo_feature_3_desc">اختر الوقت المناسب لك تماماً للتذكير اليومي.</string>
+    <string name="promo_future_notice_title">إشعار بشأن التحديثات القادمة</string>
+    <string name="promo_future_notice_desc">هذه نسخة وصول مبكر. قد تتوفر ميزات مدفوعة مستقبلاً، ولكن جميع البيانات والغرف والمهام التي تنشئها خلال هذه الفترة ستبقى محفوظة بأمان تام على هاتفك ولن تضيع أبداً.</string>
+    <string name="promo_btn_dismiss">فهمت ذلك، شكراً لك</string>
+    <string name="promo_settings_card_title">إصدار الإطلاق (جميع الميزات مفتوحة)</string>
+    <string name="promo_settings_card_desc">الغرف غير المحدودة والفترات والتنبيهات مجانية حالياً بالكامل.</string>
+
+    <string name="today_greeting">خطوات صغيرة لمنزل هادئ ومنعش.</string>
+    <string name="today_all_done">تم إنجاز جميع مهام اليوم! استرح واستمتع بنظافة منزلك.</string>
+    <string name="today_no_tasks">لا توجد مهام مجدولة لهذا اليوم.</string>
+    <string name="section_overdue">متأخرة</string>
+    <string name="section_today">مهام اليوم</string>
+    <string name="section_completed_today">تم إنجازها اليوم</string>
+    <string name="undo">تراجع</string>
+    <string name="task_completed_msg">تم الإنجاز! تم جدولة الموعد القادم تلقائياً.</string>
+    <string name="task_undo_msg">تم التراجع عن الإنجاز.</string>
+
+    <string name="rooms_title">الغرف</string>
+    <string name="rooms_subtitle">امنح كل غرفة القليل من الاهتمام.</string>
+    <string name="btn_add_room">إضافة غرفة</string>
+    <string name="room_tasks_count">%1$d مهام</string>
+    <string name="room_overdue_badge">%1$d متأخرة</string>
+
+    <string name="dialog_add_task">مهمة جديدة</string>
+    <string name="dialog_edit_task">تعديل المهمة</string>
+    <string name="dialog_add_room">غرفة جديدة</string>
+    <string name="dialog_edit_room">تعديل الغرفة</string>
+    <string name="task_title_hint">اسم المهمة (مثال: مسح أسطح المطبخ)</string>
+    <string name="room_name_hint">اسم الغرفة (مثال: غرفة المعيشة)</string>
+    <string name="select_room">الغرفة</string>
+    <string name="recurrence_label">فترة التكرار</string>
+    <string name="interval_daily">كل يوم (يوم واحد)</string>
+    <string name="interval_2days">كل يومين</string>
+    <string name="interval_3days">كل 3 أيام</string>
+    <string name="interval_weekly">أسبوعياً (7 أيام)</string>
+    <string name="interval_2weeks">كل أسبوعين (14 يوماً)</string>
+    <string name="interval_monthly">شهرياً (30 يوماً)</string>
+    <string name="interval_custom">مخصص (%1$d أيام)</string>
+    <string name="custom_days_prompt">عدد الأيام (1-365)</string>
+    <string name="btn_save">حفظ</string>
+    <string name="btn_cancel">إلغاء</string>
+    <string name="btn_delete">حذف</string>
+    <string name="confirm_delete_title">هل تريد الحذف؟</string>
+    <string name="confirm_delete_room_desc">حذف هذه الغرفة سيؤدي لحذف جميع المهام الموجودة بداخلها أيضاً.</string>
+    <string name="confirm_delete_task_desc">هل أنت متأكد من رغبتك في حذف هذه المهمة؟</string>
+
+    <string name="plan_title">جدولي</string>
+    <string name="plan_subtitle">جميع روتينيات تنظيف المنزل الدورية.</string>
+    <string name="btn_add_task">إضافة مهمة</string>
+    <string name="due_in_days">مستحقة بعد %1$d أيام</string>
+    <string name="due_today_badge">اليوم</string>
+    <string name="due_overdue_badge">متأخرة بـ %1$d أيام</string>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="reminder_section_title">تنبيه يومي لطيف</string>
+    <string name="reminder_section_desc">تلقي إشعار واحد فقط في الأيام التي لديك فيها مهام تنظيف مجدولة.</string>
+    <string name="reminder_time">وقت التنبيه</string>
+    <string name="btn_toggle_reminder_on">تفعيل التنبيهات</string>
+    <string name="btn_toggle_reminder_off">إيقاف التنبيهات</string>
+    <string name="backup_section_title">النسخ الاحتياطي</string>
+    <string name="backup_section_desc">تصدير خطتك لملف لنقلها بسهولة عند تغيير الهاتف. 100% بدون إنترنت.</string>
+    <string name="btn_export_backup">تصدير نسخة احتياطية (JSON)</string>
+    <string name="btn_import_backup">استعادة من نسخة احتياطية</string>
+    <string name="backup_success">تمت استعادة البيانات بنجاح!</string>
+    <string name="backup_error">ملف النسخ الاحتياطي غير صالح.</string>
+    <string name="about_app">حول التطبيق</string>
+    <string name="app_version">الإصدار 1.0.0 (Native Release)</string>
+    <string name="privacy_title">سياسة الخصوصية</string>
+    <string name="privacy_summary">100% محلي وخاص. لا توجد حسابات أو خوادم أو جمع للبيانات.</string>
+
+    <string name="onboarding_1_title">راحة البال والترتيب.</string>
+    <string name="onboarding_1_desc">لا داعي لحمل أعباء المنزل في ذهنك. اجمع كل الغرف والمهام في مكان واحد.</string>
+    <string name="onboarding_2_title">خطط مرة واحدة واسترح.</string>
+    <string name="onboarding_2_desc">بمجرد الضغط على إنجاز، يتم حساب موعد التنظيف القادم تلقائياً.</string>
+    <string name="onboarding_3_title">التحكم بيدك.</string>
+    <string name="onboarding_3_desc">احصل على تنبيهات لطيفة في الأيام المحددة لتعتني بمنزلك دون أي إرهاق.</string>
+    <string name="btn_enable_notifications">السماح بالإشعارات</string>
+    <string name="btn_start_with_starter_plan">البدء بخطة نموذجية</string>
+    <string name="btn_skip_setup">تخطي</string>
+    <string name="btn_continue">متابعة</string>
+
+    <string name="room_kitchen">المطبخ</string>
+    <string name="room_living">غرفة المعيشة</string>
+    <string name="room_bathroom">الحمام</string>
+    <string name="room_bedroom">غرفة النوم</string>
+
+    <string name="task_wipe_counters">مسح أسطح المطبخ</string>
+    <string name="task_take_trash">إخراج القمامة</string>
+    <string name="task_vacuum_living">كنس غرفة المعيشة بالمكنسة</string>
+    <string name="task_dust_surfaces">مسح الغبار عن الطاولات والرفوف</string>
+    <string name="task_clean_sink">تنظيف المغسلة والمرآة</string>
+    <string name="task_mop_bathroom">مسح أرضية الحمام</string>
+    <string name="task_change_sheets">تغيير شراشف السرير</string>
+    <string name="task_ventilate">تهوية غرفة النوم</string>
+
+    <string name="notif_channel_name">تذكيرات تنظيف المنزل</string>
+    <string name="notif_channel_desc">إشعارات لطيفة لمهام اليوم المجدولة.</string>
+    <string name="notif_title">جدول مهام اليوم</string>
+    <string name="notif_body_single">لديك مهمة واحدة مجدولة لليوم: %1$s</string>
+    <string name="notif_body_multi">لديك %1$d مهام مجدولة لليوم: %2$s</string>
+
+    <string name="app_short_name">تنظيم المنزل</string>
+    <string name="settings_language_title">اللغة</string>
+    <string name="settings_language_desc">اختر لغة التطبيق المفضلة</string>
+    <string name="language_system_default">لغة النظام (تلقائي)</string>
+    <string name="language_dialog_title">اختيار اللغة</string>
+</resources>

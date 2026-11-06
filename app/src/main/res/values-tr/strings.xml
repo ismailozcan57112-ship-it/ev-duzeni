@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ev Düzeni: Temizlik Planı</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Bugün</string>
+    <string name="nav_rooms">Odalar</string>
+    <string name="nav_plan">Planım</string>
+    <string name="nav_settings">Ayarlar</string>
+
+    <!-- Promotional Launch Mode -->
+    <string name="promo_badge">ÖNİZLEME</string>
+    <string name="promo_dialog_title">Lansmana Özel Ücretsiz Deneme</string>
+    <string name="promo_dialog_subtitle">Ev Düzeni\'ne hoş geldiniz! Uygulamamız lansman ve tanıtım süreci boyunca tüm özellikleriyle tamamen ücretsiz kullanımınıza sunulmuştur.</string>
+    <string name="promo_feature_1">Sınırsız Oda ve Görev</string>
+    <string name="promo_feature_1_desc">Evinizin her köşesini sınırsız şekilde planlayın.</string>
+    <string name="promo_feature_2">Özel Tekrar Planları</string>
+    <string name="promo_feature_2_desc">1 ile 365 gün arasında dilediğiniz periyotta tekrar kurun.</string>
+    <string name="promo_feature_3">Özel Hatırlatma Saati</string>
+    <string name="promo_feature_3_desc">Günlük nazik hatırlatmanız için tam istediğiniz saati seçin.</string>
+    <string name="promo_future_notice_title">Gelecek Sürümler Hakkında Bilgilendirme</string>
+    <string name="promo_future_notice_desc">Bu sürüm erken erişim ve lansman önizleme sürümüdür. İlerleyen güncellemelerde gelişmiş yeni özelliklerle birlikte Pro / abonelik modeli devreye alınabilir. Ancak bu deneme sürecinde telefonunuzda oluşturduğunuz hiçbir kayıt veya plan silinmez; tamamen cihazınızda güvenle kalır.</string>
+    <string name="promo_btn_dismiss">Anladım, Teşekkürler</string>
+    <string name="promo_settings_card_title">Lansman Sürümü (Tüm Özellikler Açık)</string>
+    <string name="promo_settings_card_desc">Lansmana özel olarak sınırsız oda, sınırsız görev ve özel hatırlatma saati açık.</string>
+
+    <!-- Today Screen -->
+    <string name="today_greeting">Küçük adımlar, ferah bir ev.</string>
+    <string name="today_all_done">Bugünün tüm işleri tamamlandı! Dinlenin ve ferah evinizin keyfini çıkarın.</string>
+    <string name="today_no_tasks">Bugün için planlanmış bir iş yok.</string>
+    <string name="section_overdue">Günü Geçenler</string>
+    <string name="section_today">Bugünün İşleri</string>
+    <string name="section_completed_today">Bugün Tamamlananlar</string>
+    <string name="undo">Geri Al</string>
+    <string name="task_completed_msg">Tamamlandı! Sonraki gün otomatik hesaplandı.</string>
+    <string name="task_undo_msg">Tamamlama geri alındı.</string>
+
+    <!-- Rooms Screen -->
+    <string name="rooms_title">Odalar</string>
+    <string name="rooms_subtitle">Her odaya biraz özen. Mutfaktan salona, kendi düzenini kur.</string>
+    <string name="btn_add_room">Oda Ekle</string>
+    <string name="room_tasks_count">%1$d görev</string>
+    <string name="room_overdue_badge">%1$d geciken</string>
+
+    <!-- Tasks & Routine Dialogs -->
+    <string name="dialog_add_task">Yeni Görev</string>
+    <string name="dialog_edit_task">Görevi Düzenle</string>
+    <string name="dialog_add_room">Yeni Oda</string>
+    <string name="dialog_edit_room">Odayı Düzenle</string>
+    <string name="task_title_hint">Görev adı (örn. Tezgâhı sil)</string>
+    <string name="room_name_hint">Oda adı (örn. Salon)</string>
+    <string name="select_room">Oda</string>
+    <string name="recurrence_label">Tekrar Aralığı</string>
+    <string name="interval_daily">Her gün (1 gün)</string>
+    <string name="interval_2days">2 günde bir</string>
+    <string name="interval_3days">3 günde bir</string>
+    <string name="interval_weekly">Haftada bir (7 gün)</string>
+    <string name="interval_2weeks">2 haftada bir (14 gün)</string>
+    <string name="interval_monthly">Ayda bir (30 gün)</string>
+    <string name="interval_custom">Özel (%1$d gün)</string>
+    <string name="custom_days_prompt">Gün aralığı (1-365)</string>
+    <string name="btn_save">Kaydet</string>
+    <string name="btn_cancel">Vazgeç</string>
+    <string name="btn_delete">Sil</string>
+    <string name="confirm_delete_title">Silmek İstiyor Musunuz?</string>
+    <string name="confirm_delete_room_desc">Bu odayı sildiğinizde bağlı tüm görevler de silinir.</string>
+    <string name="confirm_delete_task_desc">Bu görevi silmek istediğinize emin misiniz?</string>
+
+    <!-- Plan Screen -->
+    <string name="plan_title">Planım</string>
+    <string name="plan_subtitle">Evinizdeki tüm tekrarlayan rutinler.</string>
+    <string name="btn_add_task">Görev Ekle</string>
+    <string name="due_in_days">%1$d gün sonra</string>
+    <string name="due_today_badge">Bugün</string>
+    <string name="due_overdue_badge">%1$d gün gecikti</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="reminder_section_title">Günlük Nazik Hatırlatma</string>
+    <string name="reminder_section_desc">Yalnızca temizlik işinizin olduğu günlerde tek bir bildirim alırsınız.</string>
+    <string name="reminder_time">Hatırlatma Saati</string>
+    <string name="btn_toggle_reminder_on">Hatırlatmayı Aç</string>
+    <string name="btn_toggle_reminder_off">Hatırlatmayı Kapat</string>
+    <string name="backup_section_title">Planın Güvende Kalsın</string>
+    <string name="backup_section_desc">Planını dosyaya dışa aktararak telefon değişiminde yanında taşıyabilirsin. %100 çevrimdışı.</string>
+    <string name="btn_export_backup">Yedeği Dışa Aktar (JSON)</string>
+    <string name="btn_import_backup">Yedekten Geri Yükle</string>
+    <string name="backup_success">Yedek başarıyla geri yüklendi!</string>
+    <string name="backup_error">Geçersiz yedek dosyası. Plan değiştirilmedi.</string>
+    <string name="about_app">Ev Düzeni Hakkında</string>
+    <string name="app_version">Sürüm 1.0.0 (Native Sürüm)</string>
+    <string name="privacy_title">Gizlilik Politikası</string>
+    <string name="privacy_summary">%100 çevrimdışı ve gizlilik odaklı. Kullanıcı hesabı, bulut sunucu veya veri toplama yoktur.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">Evine Yer Aç.</string>
+    <string name="onboarding_1_desc">Ev işlerini aklında taşımana gerek yok. Odalarını ve küçük rutinlerini tek bir yerde topla.</string>
+    <string name="onboarding_2_title">Bir Kez Planla.</string>
+    <string name="onboarding_2_desc">Her gün, haftada bir veya seçtiğin aralıkta görev ekle. Tamamladığında sonraki gününü otomatik hesaplarız.</string>
+    <string name="onboarding_3_title">Kontrol Sende.</string>
+    <string name="onboarding_3_desc">İşin olan günlerde sana nazikçe hatırlatmamız için bildirimlere izin verebilirsin.</string>
+    <string name="btn_enable_notifications">Bildirimlere İzin Ver</string>
+    <string name="btn_start_with_starter_plan">Hazır Planla Başla</string>
+    <string name="btn_skip_setup">Kurulumu Atla</string>
+    <string name="btn_continue">Devam Et</string>
+
+    <!-- Sample Default Content -->
+    <string name="room_kitchen">Mutfak</string>
+    <string name="room_living">Salon</string>
+    <string name="room_bathroom">Banyo</string>
+    <string name="room_bedroom">Yatak Odası</string>
+
+    <string name="task_wipe_counters">Mutfak tezgâhını sil</string>
+    <string name="task_take_trash">Çöpü boşalt</string>
+    <string name="task_vacuum_living">Salonu süpür</string>
+    <string name="task_dust_surfaces">Sehpa ve rafların tozunu al</string>
+    <string name="task_clean_sink">Banyo lavabosunu ve aynayı temizle</string>
+    <string name="task_mop_bathroom">Banyo zeminini sil</string>
+    <string name="task_change_sheets">Nevresimleri değiştir</string>
+    <string name="task_ventilate">Odayı havalandır</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Günlük Temizlik Hatırlatması</string>
+    <string name="notif_channel_desc">Bugün yapılacak temizlik görevleri için nazik bildirimler.</string>
+    <string name="notif_title">Günün Temizlik Planı</string>
+    <string name="notif_body_single">Bugün 1 temizlik göreviniz var: %1$s</string>
+    <string name="notif_body_multi">Bugün %1$d temizlik göreviniz var: %2$s</string>
+
+    <string name="app_short_name">Ev Düzeni</string>
+    <string name="settings_language_title">Dil</string>
+    <string name="settings_language_desc">Tercih ettiğiniz dili seçin</string>
+    <string name="language_system_default">Sistem Dili (Varsayılan)</string>
+    <string name="language_dialog_title">Dil Seçin</string>
+</resources>

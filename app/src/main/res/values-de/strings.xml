@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Haushaltsplan: Putzplan &amp; Aufgaben</string>
+
+    <string name="nav_today">Heute</string>
+    <string name="nav_rooms">Räume</string>
+    <string name="nav_plan">Mein Plan</string>
+    <string name="nav_settings">Einstellungen</string>
+
+    <string name="promo_badge">VORSCHAU</string>
+    <string name="promo_dialog_title">Kostenlose Einführungsphase</string>
+    <string name="promo_dialog_subtitle">Willkommen! Während unserer Einführungsvorschau stehen alle Funktionen 100% kostenlos zur Verfügung.</string>
+    <string name="promo_feature_1">Unbegrenzte Räume &amp; Aufgaben</string>
+    <string name="promo_feature_1_desc">Organisieren Sie jeden Winkel Ihres Zuhauses ohne Limit.</string>
+    <string name="promo_feature_2">Individuelle Wiederholungsintervalle</string>
+    <string name="promo_feature_2_desc">Wählen Sie beliebige Zeitabstände von 1 bis 365 Tagen.</string>
+    <string name="promo_feature_3">Eigene Erinnerungszeit</string>
+    <string name="promo_feature_3_desc">Stellen Sie die perfekte Uhrzeit für Ihre tägliche Benachrichtigung ein.</string>
+    <string name="promo_future_notice_title">Hinweis zu künftigen Versionen</string>
+    <string name="promo_future_notice_desc">Dies ist eine Vorschauversion. Zukünftige Updates können optionale Pro-Funktionen enthalten. Alle während dieser Testphase erstellten Daten und Pläne bleiben dauerhaft sicher auf Ihrem Gerät gespeichert.</string>
+    <string name="promo_btn_dismiss">Verstanden, vielen Dank</string>
+    <string name="promo_settings_card_title">Einführungsedition (Alle Funktionen freigeschaltet)</string>
+    <string name="promo_settings_card_desc">Unbegrenzte Räume, eigene Intervalle und Erinnerungen sind derzeit kostenlos.</string>
+
+    <string name="today_greeting">Kleine Schritte, ein frisches Zuhause.</string>
+    <string name="today_all_done">Alle Aufgaben für heute erledigt! Entspannen Sie sich.</string>
+    <string name="today_no_tasks">Heute stehen keine Aufgaben an.</string>
+    <string name="section_overdue">Überfällig</string>
+    <string name="section_today">Heute fällig</string>
+    <string name="section_completed_today">Heute erledigt</string>
+    <string name="undo">Rückgängig</string>
+    <string name="task_completed_msg">Erledigt! Nächster Termin berechnet.</string>
+    <string name="task_undo_msg">Als unerledigt markiert.</string>
+
+    <string name="rooms_title">Räume</string>
+    <string name="rooms_subtitle">Geben Sie jedem Raum etwas Aufmerksamkeit.</string>
+    <string name="btn_add_room">Raum hinzufügen</string>
+    <string name="room_tasks_count">%1$d Aufgaben</string>
+    <string name="room_overdue_badge">%1$d überfällig</string>
+
+    <string name="dialog_add_task">Neue Aufgabe</string>
+    <string name="dialog_edit_task">Aufgabe bearbeiten</string>
+    <string name="dialog_add_room">Neuer Raum</string>
+    <string name="dialog_edit_room">Raum bearbeiten</string>
+    <string name="task_title_hint">Aufgabe (z.B. Arbeitsplatte abwischen)</string>
+    <string name="room_name_hint">Raumname (z.B. Wohnzimmer)</string>
+    <string name="select_room">Raum</string>
+    <string name="recurrence_label">Wiederholung</string>
+    <string name="interval_daily">Täglich (1 Tag)</string>
+    <string name="interval_2days">Alle 2 Tage</string>
+    <string name="interval_3days">Alle 3 Tage</string>
+    <string name="interval_weekly">Wöchentlich (7 Tage)</string>
+    <string name="interval_2weeks">Alle 2 Wochen (14 Tage)</string>
+    <string name="interval_monthly">Monatlich (30 Tage)</string>
+    <string name="interval_custom">Benutzerdefiniert (%1$d Tage)</string>
+    <string name="custom_days_prompt">Tage (1-365)</string>
+    <string name="btn_save">Speichern</string>
+    <string name="btn_cancel">Abbrechen</string>
+    <string name="btn_delete">Löschen</string>
+    <string name="confirm_delete_title">Element löschen?</string>
+    <string name="confirm_delete_room_desc">Das Löschen dieses Raumes entfernt alle enthaltenen Aufgaben.</string>
+    <string name="confirm_delete_task_desc">Möchten Sie diese Aufgabe wirklich löschen?</string>
+
+    <string name="plan_title">Mein Plan</string>
+    <string name="plan_subtitle">Alle wiederkehrenden Haushaltsroutinen.</string>
+    <string name="btn_add_task">Aufgabe hinzufügen</string>
+    <string name="due_in_days">Fällig in %1$d Tagen</string>
+    <string name="due_today_badge">Heute</string>
+    <string name="due_overdue_badge">%1$d Tage überfällig</string>
+
+    <string name="settings_title">Einstellungen</string>
+    <string name="reminder_section_title">Tägliche sanfte Erinnerung</string>
+    <string name="reminder_section_desc">Erhalten Sie nur an Tagen mit geplanten Aufgaben eine Benachrichtigung.</string>
+    <string name="reminder_time">Uhrzeit der Erinnerung</string>
+    <string name="btn_toggle_reminder_on">Erinnerungen einschalten</string>
+    <string name="btn_toggle_reminder_off">Erinnerungen ausschalten</string>
+    <string name="backup_section_title">Plan sichern</string>
+    <string name="backup_section_desc">Exportieren Sie Ihren Plan als Datei. 100% offline, kein Cloud-Zwang.</string>
+    <string name="btn_export_backup">Backup exportieren (JSON)</string>
+    <string name="btn_import_backup">Aus Backup wiederherstellen</string>
+    <string name="backup_success">Backup erfolgreich wiederhergestellt!</string>
+    <string name="backup_error">Ungültige Backup-Datei.</string>
+    <string name="about_app">Über Haushaltsplan</string>
+    <string name="app_version">Version 1.0.0 (Native Release)</string>
+    <string name="privacy_title">Datenschutzerklärung</string>
+    <string name="privacy_summary">100% offline und vertraulich. Keine Konten, keine Datenerfassung.</string>
+
+    <string name="onboarding_1_title">Platz für Ruhe im Kopf.</string>
+    <string name="onboarding_1_desc">Behalten Sie Hausarbeiten nicht im Kopf. Sammeln Sie alle Routinen an einem Ort.</string>
+    <string name="onboarding_2_title">Einmal planen, entspannen.</string>
+    <string name="onboarding_2_desc">Wiederholungen einstellen. Nach dem Erledigen berechnet sich der nächste Tag automatisch.</string>
+    <string name="onboarding_3_title">Volle Kontrolle.</string>
+    <string name="onboarding_3_desc">Aktivieren Sie Benachrichtigungen, um rechtzeitig erinnert zu werden.</string>
+    <string name="btn_enable_notifications">Erinnerungen erlauben</string>
+    <string name="btn_start_with_starter_plan">Mit Beispielplan starten</string>
+    <string name="btn_skip_setup">Überspringen</string>
+    <string name="btn_continue">Weiter</string>
+
+    <string name="room_kitchen">Küche</string>
+    <string name="room_living">Wohnzimmer</string>
+    <string name="room_bathroom">Badezimmer</string>
+    <string name="room_bedroom">Schlafzimmer</string>
+
+    <string name="task_wipe_counters">Küchenzeile abwischen</string>
+    <string name="task_take_trash">Müll hinausbringen</string>
+    <string name="task_vacuum_living">Wohnzimmer saugen</string>
+    <string name="task_dust_surfaces">Regale und Tische abstauben</string>
+    <string name="task_clean_sink">Waschbecken &amp; Spiegel reinigen</string>
+    <string name="task_mop_bathroom">Badezimmerboden wischen</string>
+    <string name="task_change_sheets">Bettwäsche wechseln</string>
+    <string name="task_ventilate">Schlafzimmer lüften</string>
+
+    <string name="notif_channel_name">Putzplan Erinnerungen</string>
+    <string name="notif_channel_desc">Sanfte Benachrichtigungen für heutige Aufgaben.</string>
+    <string name="notif_title">Heutiger Putzplan</string>
+    <string name="notif_body_single">Heute steht 1 Aufgabe an: %1$s</string>
+    <string name="notif_body_multi">Heute stehen %1$d Aufgaben an: %2$s</string>
+
+    <string name="app_short_name">Haushaltsplan</string>
+    <string name="settings_language_title">Sprache</string>
+    <string name="settings_language_desc">Wählen Sie Ihre bevorzugte Sprache</string>
+    <string name="language_system_default">Systemsprache (Standard)</string>
+    <string name="language_dialog_title">Sprache auswählen</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Уборка Дома: План и Задачи</string>
+
+    <string name="nav_today">Сегодня</string>
+    <string name="nav_rooms">Комнаты</string>
+    <string name="nav_plan">Мой план</string>
+    <string name="nav_settings">Настройки</string>
+
+    <string name="promo_badge">ПРЕВЬЮ</string>
+    <string name="promo_dialog_title">Бесплатный период запуска</string>
+    <string name="promo_dialog_subtitle">Добро пожаловать! В период раннего доступа все функции доступны на 100% бесплатно.</string>
+    <string name="promo_feature_1">Неограниченно комнат и задач</string>
+    <string name="promo_feature_1_desc">Планируйте порядок в любом уголке дома без ограничений.</string>
+    <string name="promo_feature_2">Любые интервалы повторения</string>
+    <string name="promo_feature_2_desc">Настраивайте интервалы от 1 до 365 дней.</string>
+    <string name="promo_feature_3">Точное время напоминаний</string>
+    <string name="promo_feature_3_desc">Выбирайте удобное время для ежедневных уведомлений.</string>
+    <string name="promo_future_notice_title">Уведомление о будущих версиях</string>
+    <string name="promo_future_notice_desc">Это версия раннего доступа. В будущем могут появиться дополнительные Pro-функции. Однако все созданные сейчас данные и списки навсегда останутся на вашем устройстве и не пропадут.</string>
+    <string name="promo_btn_dismiss">Понятно, спасибо</string>
+    <string name="promo_settings_card_title">Версия запуска (Все функции открыты)</string>
+    <string name="promo_settings_card_desc">Комнаты без ограничений, любые интервалы и напоминания бесплатны.</string>
+
+    <string name="today_greeting">Маленькие шаги, уютный дом.</string>
+    <string name="today_all_done">Все дела на сегодня выполнены! Отдохните и насладитесь чистотой.</string>
+    <string name="today_no_tasks">На сегодня дел не запланировано.</string>
+    <string name="section_overdue">Просрочено</string>
+    <string name="section_today">На сегодня</string>
+    <string name="section_completed_today">Сделано сегодня</string>
+    <string name="undo">Отменить</string>
+    <string name="task_completed_msg">Выполнено! Следующая дата рассчитана.</string>
+    <string name="task_undo_msg">Действие отменено.</string>
+
+    <string name="rooms_title">Комнаты</string>
+    <string name="rooms_subtitle">Уделите внимание каждому уголку дома.</string>
+    <string name="btn_add_room">Добавить комнату</string>
+    <string name="room_tasks_count">Задач: %1$d</string>
+    <string name="room_overdue_badge">Просрочено: %1$d</string>
+
+    <string name="dialog_add_task">Новая задача</string>
+    <string name="dialog_edit_task">Редактировать задачу</string>
+    <string name="dialog_add_room">Новая комната</string>
+    <string name="dialog_edit_room">Редактировать комнату</string>
+    <string name="task_title_hint">Задача (напр. Протереть стол)</string>
+    <string name="room_name_hint">Название (напр. Гостиная)</string>
+    <string name="select_room">Комната</string>
+    <string name="recurrence_label">Повторение</string>
+    <string name="interval_daily">Каждый день (1 день)</string>
+    <string name="interval_2days">Каждые 2 дня</string>
+    <string name="interval_3days">Каждые 3 дня</string>
+    <string name="interval_weekly">Раз в неделю (7 дней)</string>
+    <string name="interval_2weeks">Каждые 2 недели (14 дней)</string>
+    <string name="interval_monthly">Раз в месяц (30 дней)</string>
+    <string name="interval_custom">Свой интервал (%1$d дн.)</string>
+    <string name="custom_days_prompt">Количество дней (1-365)</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="confirm_delete_title">Удалить элемент?</string>
+    <string name="confirm_delete_room_desc">Удаление комнаты приведет к удалению всех ее задач.</string>
+    <string name="confirm_delete_task_desc">Вы уверены, что хотите удалить эту задачу?</string>
+
+    <string name="plan_title">Мой план</string>
+    <string name="plan_subtitle">Все повторяющиеся дела по дому.</string>
+    <string name="btn_add_task">Добавить задачу</string>
+    <string name="due_in_days">Через %1$d дн.</string>
+    <string name="due_today_badge">Сегодня</string>
+    <string name="due_overdue_badge">Просрочено на %1$d дн.</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="reminder_section_title">Ежедневное напоминание</string>
+    <string name="reminder_section_desc">Одно мягкое уведомление только в дни запланированных дел.</string>
+    <string name="reminder_time">Время напоминания</string>
+    <string name="btn_toggle_reminder_on">Включить напоминания</string>
+    <string name="btn_toggle_reminder_off">Выключить напоминания</string>
+    <string name="backup_section_title">Резервная копия</string>
+    <string name="backup_section_desc">Экспорт в файл для переноса на новый телефон. 100% оффлайн.</string>
+    <string name="btn_export_backup">Экспорт копии (JSON)</string>
+    <string name="btn_import_backup">Восстановить из копии</string>
+    <string name="backup_success">План успешно восстановлен!</string>
+    <string name="backup_error">Неверный файл резервной копии.</string>
+    <string name="about_app">О приложении</string>
+    <string name="app_version">Версия 1.0.0 (Native Release)</string>
+    <string name="privacy_title">Политика конфиденциальности</string>
+    <string name="privacy_summary">100% оффлайн и конфиденциально. Без аккаунтов и сбора данных.</string>
+
+    <string name="onboarding_1_title">Освободите мысли.</string>
+    <string name="onboarding_1_desc">Не держите уборку в голове. Соберите все домашние рутины в одном месте.</string>
+    <string name="onboarding_2_title">Настройте и отдыхайте.</string>
+    <string name="onboarding_2_desc">Задайте интервалы. После отметки следующая дата рассчитается автоматически.</string>
+    <string name="onboarding_3_title">Полный контроль.</string>
+    <string name="onboarding_3_desc">Включите уведомления, чтобы получать ненавязчивые подсказки в нужные дни.</string>
+    <string name="btn_enable_notifications">Включить напоминания</string>
+    <string name="btn_start_with_starter_plan">Начать с готового плана</string>
+    <string name="btn_skip_setup">Пропустить</string>
+    <string name="btn_continue">Продолжить</string>
+
+    <string name="room_kitchen">Кухня</string>
+    <string name="room_living">Гостиная</string>
+    <string name="room_bathroom">Ванная</string>
+    <string name="room_bedroom">Спальня</string>
+
+    <string name="task_wipe_counters">Протереть столешницу</string>
+    <string name="task_take_trash">Вынести мусор</string>
+    <string name="task_vacuum_living">Пропылесосить гостиную</string>
+    <string name="task_dust_surfaces">Вытереть пыль с полок</string>
+    <string name="task_clean_sink">Вымыть раковину и зеркало</string>
+    <string name="task_mop_bathroom">Помыть пол в ванной</string>
+    <string name="task_change_sheets">Поменять постельное белье</string>
+    <string name="task_ventilate">Проветрить спальню</string>
+
+    <string name="notif_channel_name">Напоминания об уборке</string>
+    <string name="notif_channel_desc">Мягкие уведомления о задачах на сегодня.</string>
+    <string name="notif_title">План уборки на сегодня</string>
+    <string name="notif_body_single">Сегодня запланировано 1 дело: %1$s</string>
+    <string name="notif_body_multi">Сегодня запланировано дел: %1$d (%2$s)</string>
+
+    <string name="app_short_name">Уборка Дома</string>
+    <string name="settings_language_title">Язык</string>
+    <string name="settings_language_desc">Выберите предпочитаемый язык</string>
+    <string name="language_system_default">Язык системы (По умолчанию)</string>
+    <string name="language_dialog_title">Выбор языка</string>
+</resources>

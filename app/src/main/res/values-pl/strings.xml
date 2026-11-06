@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Harmonogram Domu: Sprzątanie</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Dzisiaj</string>
+    <string name="nav_rooms">Pokoje</string>
+    <string name="nav_plan">Mój Plan</string>
+    <string name="nav_settings">Ustawienia</string>
+
+    <!-- Promotional Launch Mode -->
+    <string name="promo_badge">PREMIEROWY</string>
+    <string name="promo_dialog_title">Darmowy Okres Premierowy</string>
+    <string name="promo_dialog_subtitle">Witamy! W okresie premierowym i promocyjnym wszystkie funkcje są w 100% bezpłatne dla każdego.</string>
+    <string name="promo_feature_1">Nielimitowane Pokoje i Obowiązki</string>
+    <string name="promo_feature_1_desc">Zaplanuj sprzątanie każdego zakątka domu bez żadnych ograniczeń.</string>
+    <string name="promo_feature_2">Własne Harmonogramy Powtórzeń</string>
+    <string name="promo_feature_2_desc">Ustawiaj częstotliwość powtarzania od 1 do 365 dni.</string>
+    <string name="promo_feature_3">Własna Godzina Przypomnienia</string>
+    <string name="promo_feature_3_desc">Wybierz najwygodniejszą porę dnia na codzienne przypomnienie.</string>
+    <string name="promo_future_notice_title">Informacja o Przyszłych Wersjach</string>
+    <string name="promo_future_notice_desc">To wersja wczesnego dostępu (Early Access). W przyszłych aktualizacjach mogą pojawić się opcjonalne funkcje Pro. Jednak wszystkie pokoje, zadania i plany utworzone w tym okresie próbnym pozostaną bezpiecznie na Twoim urządzeniu na zawsze i nigdy nie zostaną utracone.</string>
+    <string name="promo_btn_dismiss">Rozumiem, dziękuję</string>
+    <string name="promo_settings_card_title">Edycja Premierowa (Wszystkie Funkcje Odblokowane)</string>
+    <string name="promo_settings_card_desc">Nielimitowane pokoje, własne interwały i powiadomienia są obecnie całkowicie bezpłatne.</string>
+
+    <!-- Today Screen -->
+    <string name="today_greeting">Małe kroki, świeższy dom.</string>
+    <string name="today_all_done">Wszystkie zadania na dziś wykonane! Zrelaksuj się i ciesz się czystym domem.</string>
+    <string name="today_no_tasks">Brak zadań zaplanowanych na dzisiaj.</string>
+    <string name="section_overdue">Zaległe</string>
+    <string name="section_today">Na dzisiaj</string>
+    <string name="section_completed_today">Ukończone dzisiaj</string>
+    <string name="undo">Cofnij</string>
+    <string name="task_completed_msg">Wykonane! Następny cykl został zaplanowany.</string>
+    <string name="task_undo_msg">Cofnięto ukończenie.</string>
+
+    <!-- Rooms Screen -->
+    <string name="rooms_title">Pokoje</string>
+    <string name="rooms_subtitle">Zadbaj o każdy pokój z osobna. Zbuduj swój własny rytm.</string>
+    <string name="btn_add_room">Dodaj Pokój</string>
+    <string name="room_tasks_count">%1$d zadań</string>
+    <string name="room_overdue_badge">%1$d zaległych</string>
+
+    <!-- Tasks & Routine Dialogs -->
+    <string name="dialog_add_task">Nowe Zadanie</string>
+    <string name="dialog_edit_task">Edytuj Zadanie</string>
+    <string name="dialog_add_room">Nowy Pokój</string>
+    <string name="dialog_edit_room">Edytuj Pokój</string>
+    <string name="task_title_hint">Nazwa zadania (np. Przetrzeć blaty)</string>
+    <string name="room_name_hint">Nazwa pokoju (np. Salon)</string>
+    <string name="select_room">Pokój</string>
+    <string name="recurrence_label">Częstotliwość powtórzeń</string>
+    <string name="interval_daily">Codziennie (1 dzień)</string>
+    <string name="interval_2days">Co 2 dni</string>
+    <string name="interval_3days">Co 3 dni</string>
+    <string name="interval_weekly">Co tydzień (7 dni)</string>
+    <string name="interval_2weeks">Co 2 tygodnie (14 dni)</string>
+    <string name="interval_monthly">Co miesiąc (30 dni)</string>
+    <string name="interval_custom">Własny (%1$d dni)</string>
+    <string name="custom_days_prompt">Liczba dni (1-365)</string>
+    <string name="btn_save">Zapisz</string>
+    <string name="btn_cancel">Anuluj</string>
+    <string name="btn_delete">Usuń</string>
+    <string name="confirm_delete_title">Usunąć element?</string>
+    <string name="confirm_delete_room_desc">Usunięcie tego pokoju spowoduje usunięcie wszystkich przypisanych do niego zadań.</string>
+    <string name="confirm_delete_task_desc">Czy na pewno chcesz usunąć to zadanie?</string>
+
+    <!-- Plan Screen -->
+    <string name="plan_title">Mój Plan</string>
+    <string name="plan_subtitle">Wszystkie powtarzalne rutyny sprzątania w Twoim domu.</string>
+    <string name="btn_add_task">Dodaj Zadanie</string>
+    <string name="due_in_days">Termin za %1$d dni</string>
+    <string name="due_today_badge">Dzisiaj</string>
+    <string name="due_overdue_badge">%1$d dni po terminie</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Ustawienia</string>
+    <string name="reminder_section_title">Codzienne Delikatne Przypomnienie</string>
+    <string name="reminder_section_desc">Otrzymuj jedno powiadomienie wyłącznie w dniach, gdy masz zaplanowane zadania.</string>
+    <string name="reminder_time">Godzina Przypomnienia</string>
+    <string name="btn_toggle_reminder_on">Włącz Przypomnienia</string>
+    <string name="btn_toggle_reminder_off">Wyłącz Przypomnienia</string>
+    <string name="backup_section_title">Bezpieczeństwo Twojego Planu</string>
+    <string name="backup_section_desc">Eksportuj swój plan do pliku. Bezproblemowe przenoszenie na nowy telefon. 100% offline.</string>
+    <string name="btn_export_backup">Eksportuj Kopię (JSON)</string>
+    <string name="btn_import_backup">Przywróć z Kopii</string>
+    <string name="backup_success">Pomyślnie przywrócono plan z kopii!</string>
+    <string name="backup_error">Nieprawidłowy plik kopii. Plan nie uległ zmianie.</string>
+    <string name="about_app">O Aplikacji</string>
+    <string name="app_version">Wersja 1.0.0 (Native Release)</string>
+    <string name="privacy_title">Polityka Prywatności</string>
+    <string name="privacy_summary">100% offline i prywatnie. Bez konta, bez serwerów w chmurze, bez zbierania danych.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">Zrób Miejsce na Spokój.</string>
+    <string name="onboarding_1_desc">Nie musisz pamiętać o wszystkim. Zbierz wszystkie pokoje i nawyki w jednym miejscu.</string>
+    <string name="onboarding_2_title">Zaplanuj Raz i Odpoczywaj.</string>
+    <string name="onboarding_2_desc">Ustaw zadania codziennie, co tydzień lub co miesiąc. Po odznaczeniu kolejny termin obliczy się sam.</string>
+    <string name="onboarding_3_title">Miej Wszystko pod Kontrolą.</string>
+    <string name="onboarding_3_desc">Otrzymuj delikatne przypomnienie w dni sprzątania, aby zachować pełen spokój.</string>
+    <string name="btn_enable_notifications">Zezwól na Przypomnienia</string>
+    <string name="btn_start_with_starter_plan">Rozpocznij z Przykładowym Planem</string>
+    <string name="btn_skip_setup">Pomiń</string>
+    <string name="btn_continue">Kontynuuj</string>
+
+    <!-- Sample Default Content -->
+    <string name="room_kitchen">Kuchnia</string>
+    <string name="room_living">Salon</string>
+    <string name="room_bathroom">Łazienka</string>
+    <string name="room_bedroom">Sypialnia</string>
+
+    <string name="task_wipe_counters">Przetrzeć blaty kuchenne</string>
+    <string name="task_take_trash">Wynieść śmieci</string>
+    <string name="task_vacuum_living">Odkurzyć salon</string>
+    <string name="task_dust_surfaces">Wytrzeć kurze z mebli</string>
+    <string name="task_clean_sink">Umyć umywalkę i lustro</string>
+    <string name="task_mop_bathroom">Umyć podłogę w łazience</string>
+    <string name="task_change_sheets">Zmienić pościel</string>
+    <string name="task_ventilate">Przewietrzyć sypialnię</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Przypomnienia o Obowiązkach</string>
+    <string name="notif_channel_desc">Delikatne powiadomienia o zaplanowanych na dziś zadaniach domowych.</string>
+    <string name="notif_title">Dzisiejszy Plan Domu</string>
+    <string name="notif_body_single">Masz dzisiaj 1 zaplanowane zadanie: %1$s</string>
+    <string name="notif_body_multi">Masz dzisiaj %1$d zaplanowane zadania: %2$s</string>
+
+    <string name="app_short_name">Harmonogram Domu</string>
+    <string name="settings_language_title">Język</string>
+    <string name="settings_language_desc">Wybierz preferowany język</string>
+    <string name="language_system_default">Język systemowy (Domyślny)</string>
+    <string name="language_dialog_title">Wybierz język</string>
+</resources>

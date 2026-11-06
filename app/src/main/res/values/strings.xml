@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Home Routine: Chores &amp; Cleaning</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Today</string>
+    <string name="nav_rooms">Rooms</string>
+    <string name="nav_plan">My Plan</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Promotional Launch Mode -->
+    <string name="promo_badge">PREVIEW</string>
+    <string name="promo_dialog_title">Launch Free Trial</string>
+    <string name="promo_dialog_subtitle">All features are 100% free during our launch &amp; preview period!</string>
+    <string name="promo_feature_1">Unlimited Rooms &amp; Chores</string>
+    <string name="promo_feature_1_desc">Organize every corner of your home without limits.</string>
+    <string name="promo_feature_2">Custom Repeat Schedules</string>
+    <string name="promo_feature_2_desc">Set repeat intervals for 1 to 365 days.</string>
+    <string name="promo_feature_3">Custom Reminder Time</string>
+    <string name="promo_feature_3_desc">Choose the exact time of day for your daily reminder.</string>
+    <string name="promo_future_notice_title">Notice About Future Versions</string>
+    <string name="promo_future_notice_desc">This release is an early access preview. In future updates, optional Pro/subscription features may be introduced. However, all plans, rooms, and chores created during this trial will permanently remain on your device and will never be lost.</string>
+    <string name="promo_btn_dismiss">Got It, Thank You</string>
+    <string name="promo_settings_card_title">Launch Edition (All Features Unlocked)</string>
+    <string name="promo_settings_card_desc">Unlimited rooms, custom intervals, and reminders are currently free.</string>
+
+    <!-- Today Screen -->
+    <string name="today_greeting">Small steps, a fresher home.</string>
+    <string name="today_all_done">All chores done for today! Relax and enjoy your clean home.</string>
+    <string name="today_no_tasks">No chores scheduled for today.</string>
+    <string name="section_overdue">Overdue</string>
+    <string name="section_today">Due Today</string>
+    <string name="section_completed_today">Completed Today</string>
+    <string name="undo">Undo</string>
+    <string name="task_completed_msg">Done! Next cycle scheduled.</string>
+    <string name="task_undo_msg">Completion undone.</string>
+
+    <!-- Rooms Screen -->
+    <string name="rooms_title">Rooms</string>
+    <string name="rooms_subtitle">Give every room a little care. Build your own flow.</string>
+    <string name="btn_add_room">Add Room</string>
+    <string name="room_tasks_count">%1$d tasks</string>
+    <string name="room_overdue_badge">%1$d overdue</string>
+
+    <!-- Tasks & Routine Dialogs -->
+    <string name="dialog_add_task">New Chore</string>
+    <string name="dialog_edit_task">Edit Chore</string>
+    <string name="dialog_add_room">New Room</string>
+    <string name="dialog_edit_room">Edit Room</string>
+    <string name="task_title_hint">Chore title (e.g. Wipe counters)</string>
+    <string name="room_name_hint">Room name (e.g. Living Room)</string>
+    <string name="select_room">Room</string>
+    <string name="recurrence_label">Repeat Interval</string>
+    <string name="interval_daily">Every day (1 day)</string>
+    <string name="interval_2days">Every 2 days</string>
+    <string name="interval_3days">Every 3 days</string>
+    <string name="interval_weekly">Every week (7 days)</string>
+    <string name="interval_2weeks">Every 2 weeks (14 days)</string>
+    <string name="interval_monthly">Every month (30 days)</string>
+    <string name="interval_custom">Custom (%1$d days)</string>
+    <string name="custom_days_prompt">Custom days (1-365)</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="confirm_delete_title">Delete Item?</string>
+    <string name="confirm_delete_room_desc">Deleting this room will also remove all chores inside it.</string>
+    <string name="confirm_delete_task_desc">Are you sure you want to delete this chore?</string>
+
+    <!-- Plan Screen -->
+    <string name="plan_title">My Plan</string>
+    <string name="plan_subtitle">All recurring routines across your home.</string>
+    <string name="btn_add_task">Add Chore</string>
+    <string name="due_in_days">Due in %1$d days</string>
+    <string name="due_today_badge">Today</string>
+    <string name="due_overdue_badge">%1$d days overdue</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="reminder_section_title">Daily Gentle Reminder</string>
+    <string name="reminder_section_desc">Receive a single notification only on days you have chores scheduled.</string>
+    <string name="reminder_time">Reminder Time</string>
+    <string name="btn_toggle_reminder_on">Turn On Reminders</string>
+    <string name="btn_toggle_reminder_off">Turn Off Reminders</string>
+    <string name="backup_section_title">Keep Your Plan Safe</string>
+    <string name="backup_section_desc">Export your plan to a file. Seamlessly transfer when you switch phones. 100% offline.</string>
+    <string name="btn_export_backup">Export Backup (JSON)</string>
+    <string name="btn_import_backup">Restore from Backup</string>
+    <string name="backup_success">Backup restored successfully!</string>
+    <string name="backup_error">Invalid backup file. Plan was not changed.</string>
+    <string name="about_app">About Home Routine</string>
+    <string name="app_version">Version 1.0.0 (Native Release)</string>
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_summary">100% offline &amp; private. No user account, no cloud servers, no data collection.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">Make Room for Peace.</string>
+    <string name="onboarding_1_desc">No need to carry chores in your head. Gather your rooms and gentle routines in one place.</string>
+    <string name="onboarding_2_title">Plan Once, Relax.</string>
+    <string name="onboarding_2_desc">Set chores to repeat daily, weekly, or anytime. When you complete one, the next date calculates automatically.</string>
+    <string name="onboarding_3_title">Stay in Control.</string>
+    <string name="onboarding_3_desc">Opt in for a gentle reminder on chore days so you never feel overwhelmed.</string>
+    <string name="btn_enable_notifications">Allow Reminders</string>
+    <string name="btn_start_with_starter_plan">Start with Sample Plan</string>
+    <string name="btn_skip_setup">Skip Setup</string>
+    <string name="btn_continue">Continue</string>
+
+    <!-- Sample Default Content -->
+    <string name="room_kitchen">Kitchen</string>
+    <string name="room_living">Living Room</string>
+    <string name="room_bathroom">Bathroom</string>
+    <string name="room_bedroom">Bedroom</string>
+
+    <string name="task_wipe_counters">Wipe kitchen counters</string>
+    <string name="task_take_trash">Take out the trash</string>
+    <string name="task_vacuum_living">Vacuum living room floor</string>
+    <string name="task_dust_surfaces">Dust shelves &amp; coffee table</string>
+    <string name="task_clean_sink">Clean bathroom sink &amp; mirror</string>
+    <string name="task_mop_bathroom">Mop bathroom floor</string>
+    <string name="task_change_sheets">Change bed sheets</string>
+    <string name="task_ventilate">Air out the bedroom</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Daily Chore Reminders</string>
+    <string name="notif_channel_desc">Gentle notifications for chores scheduled today.</string>
+    <string name="notif_title">Today\'s Home Plan</string>
+    <string name="notif_body_single">You have 1 chore scheduled for today: %1$s</string>
+    <string name="notif_body_multi">You have %1$d chores scheduled for today: %2$s</string>
+
+    <string name="app_short_name">Home Routine</string>
+    <string name="settings_language_title">Language</string>
+    <string name="settings_language_desc">Select your preferred language</string>
+    <string name="language_system_default">System Default</string>
+    <string name="language_dialog_title">Select Language</string>
+</resources>

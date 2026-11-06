@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ayos Bahay: Routine sa Paglilinis</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Ngayon</string>
+    <string name="nav_rooms">Mga Kwarto</string>
+    <string name="nav_plan">Aking Plano</string>
+    <string name="nav_settings">Mga Setting</string>
+
+    <!-- Promotional Launch Mode -->
+    <string name="promo_badge">PREVIEW</string>
+    <string name="promo_dialog_title">Libreng Pagsubok sa Paglulunsad</string>
+    <string name="promo_dialog_subtitle">Maligayang pagdating! Sa panahon ng paglulunsad at promosyon, ang lahat ng feature ay 100% libre para sa lahat.</string>
+    <string name="promo_feature_1">Walang Limitasyong Kwarto at Gawain</string>
+    <string name="promo_feature_1_desc">Ayusin ang bawat sulok ng iyong tahanan nang walang limitasyon.</string>
+    <string name="promo_feature_2">Custom na Iskedyul ng Pag-uulit</string>
+    <string name="promo_feature_2_desc">Magtakda ng agwat mula 1 hanggang 365 araw.</string>
+    <string name="promo_feature_3">Sariling Oras ng Paalala</string>
+    <string name="promo_feature_3_desc">Piliin ang eksaktong oras para sa iyong pang-araw-araw na paalala.</string>
+    <string name="promo_future_notice_title">Paunawa Tungkol sa Susunod na Bersyon</string>
+    <string name="promo_future_notice_desc">Ito ay isang maagang preview release. Sa mga susunod na update, maaaring magkaroon ng opsyonal na Pro feature. Gayunpaman, ang lahat ng kwarto, gawain, at planong ginawa mo sa trial na ito ay mananatiling ligtas sa iyong device at hindi mawawala kailanman.</string>
+    <string name="promo_btn_dismiss">Naintindihan, Salamat</string>
+    <string name="promo_settings_card_title">Edisyon ng Paglulunsad (Lahat Bukas)</string>
+    <string name="promo_settings_card_desc">Ang walang limitasyong mga kwarto, custom na agwat, at paalala ay libre sa kasalukuyan.</string>
+
+    <!-- Today Screen -->
+    <string name="today_greeting">Maliliit na hakbang para sa maaliwalas na tahanan.</string>
+    <string name="today_all_done">Tapos na lahat ng gawaing-bahay ngayon! Magpahinga at tamasahin ang malinis na tahanan.</string>
+    <string name="today_no_tasks">Walang nakatakdang gawain para sa araw na ito.</string>
+    <string name="section_overdue">Lampas sa Takdang Araw</string>
+    <string name="section_today">Para sa Araw na Ito</string>
+    <string name="section_completed_today">Natapos Ngayong Araw</string>
+    <string name="undo">I-undo</string>
+    <string name="task_completed_msg">Tapos na! Naiskedyul na ang susunod na ikot.</string>
+    <string name="task_undo_msg">Na-undo ang pagkumpleto.</string>
+
+    <!-- Rooms Screen -->
+    <string name="rooms_title">Mga Kwarto</string>
+    <string name="rooms_subtitle">Alagaan ang bawat silid. Bumuo ng sarili mong ritmo.</string>
+    <string name="btn_add_room">Magdagdag ng Kwarto</string>
+    <string name="room_tasks_count">%1$d gawain</string>
+    <string name="room_overdue_badge">%1$d lampas sa takda</string>
+
+    <!-- Tasks & Routine Dialogs -->
+    <string name="dialog_add_task">Bagong Gawain</string>
+    <string name="dialog_edit_task">I-edit ang Gawain</string>
+    <string name="dialog_add_room">Bagong Kwarto</string>
+    <string name="dialog_edit_room">I-edit ang Kwarto</string>
+    <string name="task_title_hint">Pangalan ng gawain (hal. Punasan ang lababo)</string>
+    <string name="room_name_hint">Pangalan ng silid (hal. Sala)</string>
+    <string name="select_room">Kwarto</string>
+    <string name="recurrence_label">Dalas ng Pag-uulit</string>
+    <string name="interval_daily">Araw-araw (1 araw)</string>
+    <string name="interval_2days">Tuwing 2 araw</string>
+    <string name="interval_3days">Tuwing 3 araw</string>
+    <string name="interval_weekly">Linggu-linggo (7 araw)</string>
+    <string name="interval_2weeks">Tuwing 2 linggo (14 araw)</string>
+    <string name="interval_monthly">Buwan-buwan (30 araw)</string>
+    <string name="interval_custom">Pasadya (%1$d araw)</string>
+    <string name="custom_days_prompt">Bilang ng araw (1-365)</string>
+    <string name="btn_save">I-save</string>
+    <string name="btn_cancel">Kanselahin</string>
+    <string name="btn_delete">Tanggalin</string>
+    <string name="confirm_delete_title">Tanggalin ang Item?</string>
+    <string name="confirm_delete_room_desc">Ang pagtanggal sa kwartong ito ay magtatanggal din sa lahat ng gawaing nakapaloob dito.</string>
+    <string name="confirm_delete_task_desc">Sigurado ka bang nais mong tanggalin ang gawaing ito?</string>
+
+    <!-- Plan Screen -->
+    <string name="plan_title">Aking Plano</string>
+    <string name="plan_subtitle">Lahat ng paulit-ulit na gawain sa iyong tahanan.</string>
+    <string name="btn_add_task">Magdagdag ng Gawain</string>
+    <string name="due_in_days">Dapat gawin sa loob ng %1$d araw</string>
+    <string name="due_today_badge">Ngayon</string>
+    <string name="due_overdue_badge">%1$d araw nang lampas sa takda</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Mga Setting</string>
+    <string name="reminder_section_title">Banayad na Pang-araw-araw na Paalala</string>
+    <string name="reminder_section_desc">Makatanggap ng isang abiso lamang sa mga araw na may nakatakdang gawain.</string>
+    <string name="reminder_time">Oras ng Paalala</string>
+    <string name="btn_toggle_reminder_on">I-on ang mga Paalala</string>
+    <string name="btn_toggle_reminder_off">I-off ang mga Paalala</string>
+    <string name="backup_section_title">Panatilihing Ligtas ang Iyong Plano</string>
+    <string name="backup_section_desc">I-export ang iyong plano sa isang file. Madaling ilipat kapag nagpalit ng telepono. 100% offline.</string>
+    <string name="btn_export_backup">I-export ang Backup (JSON)</string>
+    <string name="btn_import_backup">Ibalik mula sa Backup</string>
+    <string name="backup_success">Matagumpay na naibalik ang backup!</string>
+    <string name="backup_error">Hindi wastong backup file. Hindi nabago ang plano.</string>
+    <string name="about_app">Tungkol sa Ayos Bahay</string>
+    <string name="app_version">Bersyon 1.0.0 (Native Release)</string>
+    <string name="privacy_title">Patakaran sa Pagkapribado</string>
+    <string name="privacy_summary">100% offline at pribado. Walang account, walang cloud server, walang pangongolekta ng impormasyon.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">Bigyang Puwang ang Kapayapaan.</string>
+    <string name="onboarding_1_desc">Hindi kailangang tandaan ang lahat ng gawaing-bahay sa isip. Tipunin ang mga kwarto at gawi sa iisang lugar.</string>
+    <string name="onboarding_2_title">Magplano Nang Minsan, Magpahinga Pagkatapos.</string>
+    <string name="onboarding_2_desc">Itakda ang mga gawain kada araw, linggo, o buwan. Kapag natapos, awtomatikong kukuwentahin ang susunod na petsa.</string>
+    <string name="onboarding_3_title">Manatiling May Kontrol.</string>
+    <string name="onboarding_3_desc">Makatanggap ng banayad na paalala sa mga araw ng gawaing-bahay upang hindi kailanman mabigatan.</string>
+    <string name="btn_enable_notifications">Payagan ang mga Paalala</string>
+    <string name="btn_start_with_starter_plan">Magsimula Gamit ang Sampol na Plano</string>
+    <string name="btn_skip_setup">Laktawan</string>
+    <string name="btn_continue">Magpatuloy</string>
+
+    <!-- Sample Default Content -->
+    <string name="room_kitchen">Kusina</string>
+    <string name="room_living">Sala</string>
+    <string name="room_bathroom">Banyo</string>
+    <string name="room_bedroom">Silid-tulugan</string>
+
+    <string name="task_wipe_counters">Punasan ang mga counter sa kusina</string>
+    <string name="task_take_trash">Ilabas ang basura</string>
+    <string name="task_vacuum_living">I-vacuum ang sahig ng sala</string>
+    <string name="task_dust_surfaces">Punasan ang alikabok sa mesa at istante</string>
+    <string name="task_clean_sink">Linisin ang lababo at salamin</string>
+    <string name="task_mop_bathroom">Lampasuhin ang sahig ng banyo</string>
+    <string name="task_change_sheets">Magpalit ng kubrekama</string>
+    <string name="task_ventilate">Pasingawin ang silid-tulugan</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Mga Paalala sa Gawaing-Bahay</string>
+    <string name="notif_channel_desc">Banayad na paalala para sa mga gawaing nakatakda ngayong araw.</string>
+    <string name="notif_title">Plano sa Bahay Ngayong Araw</string>
+    <string name="notif_body_single">May 1 gawain kang nakatakda ngayong araw: %1$s</string>
+    <string name="notif_body_multi">May %1$d gawain kang nakatakda ngayong araw: %2$s</string>
+
+    <string name="app_short_name">Ayos Bahay</string>
+    <string name="settings_language_title">Wika</string>
+    <string name="settings_language_desc">Piliin ang iyong gustong wika</string>
+    <string name="language_system_default">Wika ng System (Default)</string>
+    <string name="language_dialog_title">Pumili ng Wika</string>
+</resources>

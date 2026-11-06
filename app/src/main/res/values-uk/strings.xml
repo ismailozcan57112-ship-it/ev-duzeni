@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Домашній розпорядок: Прибирання</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Сьогодні</string>
+    <string name="nav_rooms">Кімнати</string>
+    <string name="nav_plan">Мій план</string>
+    <string name="nav_settings">Налаштування</string>
+
+    <!-- Promotional Launch Mode -->
+    <string name="promo_badge">ПОПЕРЕДНІЙ ПЕРЕГЛЯД</string>
+    <string name="promo_dialog_title">Безкоштовний період запуску</string>
+    <string name="promo_dialog_subtitle">Ласкаво просимо! У період запуску всі функції доступні на 100% безкоштовно для кожного.</string>
+    <string name="promo_feature_1">Необмежено кімнат і завдань</string>
+    <string name="promo_feature_1_desc">Організовуйте кожен куточок оселі без жодних лімітів.</string>
+    <string name="promo_feature_2">Власні графіки повторень</string>
+    <string name="promo_feature_2_desc">Встановлюйте повторення від 1 до 365 днів.</string>
+    <string name="promo_feature_3">Зручний час нагадувань</string>
+    <string name="promo_feature_3_desc">Обирайте точний час для щоденних сповіщень.</string>
+    <string name="promo_future_notice_title">Повідомлення про майбутні версії</string>
+    <string name="promo_future_notice_desc">Це версія раннього доступу. У майбутніх оновленнях можуть з\'явитися додаткові Pro-можливості. Проте всі дані, кімнати та плани, створені під час цього періоду, назавжди залишаться на вашому пристрої і ніколи не будуть втрачені.</string>
+    <string name="promo_btn_dismiss">Зрозуміло, дякую</string>
+    <string name="promo_settings_card_title">Версія запуску (Усі функції розблоковано)</string>
+    <string name="promo_settings_card_desc">Необмежені кімнати, власні інтервали та нагадування зараз безкоштовні.</string>
+
+    <!-- Today Screen -->
+    <string name="today_greeting">Маленькі кроки, свіжа та затишна оселя.</string>
+    <string name="today_all_done">Усі справи на сьогодні виконано! Відпочиньте та насолоджуйтеся чистотою.</string>
+    <string name="today_no_tasks">На сьогодні справ не заплановано.</string>
+    <string name="section_overdue">Протерміновано</string>
+    <string name="section_today">Заплановано на сьогодні</string>
+    <string name="section_completed_today">Виконано сьогодні</string>
+    <string name="undo">Скасувати</string>
+    <string name="task_completed_msg">Виконано! Наступну дату розраховано автоматично.</string>
+    <string name="task_undo_msg">Позначку про виконання знято.</string>
+
+    <!-- Rooms Screen -->
+    <string name="rooms_title">Кімнати</string>
+    <string name="rooms_subtitle">Приділіть увагу кожній кімнаті. Створіть власний ритм.</string>
+    <string name="btn_add_room">Додати кімнату</string>
+    <string name="room_tasks_count">Завдань: %1$d</string>
+    <string name="room_overdue_badge">Прострочено: %1$d</string>
+
+    <!-- Tasks & Routine Dialogs -->
+    <string name="dialog_add_task">Нове завдання</string>
+    <string name="dialog_edit_task">Редагувати завдання</string>
+    <string name="dialog_add_room">Нова кімната</string>
+    <string name="dialog_edit_room">Редагувати кімнату</string>
+    <string name="task_title_hint">Назва завдання (напр., Протерти стільницю)</string>
+    <string name="room_name_hint">Назва кімнати (напр., Вітальня)</string>
+    <string name="select_room">Кімната</string>
+    <string name="recurrence_label">Період повторення</string>
+    <string name="interval_daily">Щодня (1 день)</string>
+    <string name="interval_2days">Кожні 2 дні</string>
+    <string name="interval_3days">Кожні 3 дні</string>
+    <string name="interval_weekly">Щотижня (7 днів)</string>
+    <string name="interval_2weeks">Кожні 2 тижні (14 днів)</string>
+    <string name="interval_monthly">Щомісяця (30 днів)</string>
+    <string name="interval_custom">Власний (%1$d дн.)</string>
+    <string name="custom_days_prompt">Кількість днів (1-365)</string>
+    <string name="btn_save">Зберегти</string>
+    <string name="btn_cancel">Скасувати</string>
+    <string name="btn_delete">Видалити</string>
+    <string name="confirm_delete_title">Видалити елемент?</string>
+    <string name="confirm_delete_room_desc">Видалення цієї кімнати також видалить усі завдання всередині неї.</string>
+    <string name="confirm_delete_task_desc">Ви впевнені, що хочете видалити це завдання?</string>
+
+    <!-- Plan Screen -->
+    <string name="plan_title">Мій план</string>
+    <string name="plan_subtitle">Усі регулярні домашні обов\'язки.</string>
+    <string name="btn_add_task">Додати завдання</string>
+    <string name="due_in_days">Через %1$d дн.</string>
+    <string name="due_today_badge">Сьогодні</string>
+    <string name="due_overdue_badge">Прострочено на %1$d дн.</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Налаштування</string>
+    <string name="reminder_section_title">Щоденне ненав\'язливе нагадування</string>
+    <string name="reminder_section_desc">Отримуйте лише одне сповіщення і лише в ті дні, коли є заплановані справи.</string>
+    <string name="reminder_time">Час нагадування</string>
+    <string name="btn_toggle_reminder_on">Увімкнути нагадування</string>
+    <string name="btn_toggle_reminder_off">Вимкнути нагадування</string>
+    <string name="backup_section_title">Резервне копіювання</string>
+    <string name="backup_section_desc">Експортуйте план у файл для легкого перенесення на новий телефон. 100% офлайн.</string>
+    <string name="btn_export_backup">Експортувати копію (JSON)</string>
+    <string name="btn_import_backup">Відновити з копії</string>
+    <string name="backup_success">План успішно відновлено з копії!</string>
+    <string name="backup_error">Некоректний файл копії.</string>
+    <string name="about_app">Про додаток</string>
+    <string name="app_version">Версія 1.0.0 (Native Release)</string>
+    <string name="privacy_title">Політика конфіденційності</string>
+    <string name="privacy_summary">100% офлайн та приватно. Жодних акаунтів, серверів чи збору даних.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">Місце для спокою в думках.</string>
+    <string name="onboarding_1_desc">Не тримайте прибирання в голові. Зберіть усі кімнати та звички в одному місці.</string>
+    <string name="onboarding_2_title">Налаштуйте один раз і відпочивайте.</string>
+    <string name="onboarding_2_desc">Позначте виконане, а наступну дату буде обчислено автоматично.</string>
+    <string name="onboarding_3_title">Все під контролем.</string>
+    <string name="onboarding_3_desc">Отримуйте м\'які нагадування у потрібні дні без перевантаження.</string>
+    <string name="btn_enable_notifications">Дозволити сповіщення</string>
+    <string name="btn_start_with_starter_plan">Почати зі зразкового плану</string>
+    <string name="btn_skip_setup">Пропустити</string>
+    <string name="btn_continue">Продовжити</string>
+
+    <!-- Sample Default Content -->
+    <string name="room_kitchen">Кухня</string>
+    <string name="room_living">Вітальня</string>
+    <string name="room_bathroom">Ванна кімната</string>
+    <string name="room_bedroom">Спальня</string>
+
+    <string name="task_wipe_counters">Протерти робочу поверхню кухні</string>
+    <string name="task_take_trash">Винести сміття</string>
+    <string name="task_vacuum_living">Пропилососити підлогу у вітальні</string>
+    <string name="task_dust_surfaces">Витерти пил з полиць і столів</string>
+    <string name="task_clean_sink">Помити умивальник та дзеркало</string>
+    <string name="task_mop_bathroom">Помити підлогу у ванній</string>
+    <string name="task_change_sheets">Змінити постільну білизну</string>
+    <string name="task_ventilate">Провітрити спальню</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Нагадування про прибирання</string>
+    <string name="notif_channel_desc">Спокійні сповіщення про сьогоднішні завдання.</string>
+    <string name="notif_title">Сьогоднішній план прибирання</string>
+    <string name="notif_body_single">Сьогодні у вас заплановано 1 завдання: %1$s</string>
+    <string name="notif_body_multi">Сьогодні у вас заплановано завдань: %1$d (%2$s)</string>
+
+    <string name="app_short_name">Домашній розпорядок</string>
+    <string name="settings_language_title">Мова</string>
+    <string name="settings_language_desc">Оберіть бажану мову</string>
+    <string name="language_system_default">Мова системи (За замовчуванням)</string>
+    <string name="language_dialog_title">Вибір мови</string>
+</resources>

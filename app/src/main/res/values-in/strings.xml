@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rutinitas Rumah: Jadwal Bersih</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Hari Ini</string>
+    <string name="nav_rooms">Ruangan</string>
+    <string name="nav_plan">Rencana Saya</string>
+    <string name="nav_settings">Pengaturan</string>
+
+    <!-- Promotional Launch Mode -->
+    <string name="promo_badge">PRATINJAU</string>
+    <string name="promo_dialog_title">Uji Coba Gratis Peluncuran</string>
+    <string name="promo_dialog_subtitle">Selamat datang! Selama periode peluncuran, semua fitur tersedia 100% gratis untuk semua orang.</string>
+    <string name="promo_feature_1">Ruangan &amp; Tugas Tanpa Batas</string>
+    <string name="promo_feature_1_desc">Atur setiap sudut rumah Anda tanpa batasan apa pun.</string>
+    <string name="promo_feature_2">Jadwal Pengulangan Khusus</string>
+    <string name="promo_feature_2_desc">Atur interval pengulangan fleksibel dari 1 hingga 365 hari.</string>
+    <string name="promo_feature_3">Waktu Pengingat Khusus</string>
+    <string name="promo_feature_3_desc">Pilih waktu yang tepat untuk pengingat harian Anda.</string>
+    <string name="promo_future_notice_title">Pemberitahuan Tentang Versi Mendatang</string>
+    <string name="promo_future_notice_desc">Versi ini adalah pratinjau akses awal. Pembaruan di masa mendatang mungkin menghadirkan fitur Pro/langganan opsional. Namun, semua data, ruangan, dan jadwal yang dibuat selama uji coba ini akan tetap tersimpan aman di perangkat Anda dan tidak akan pernah hilang.</string>
+    <string name="promo_btn_dismiss">Mengerti, Terima Kasih</string>
+    <string name="promo_settings_card_title">Edisi Peluncuran (Semua Fitur Terbuka)</string>
+    <string name="promo_settings_card_desc">Ruangan tanpa batas, interval khusus, dan pengingat saat ini gratis.</string>
+
+    <!-- Today Screen -->
+    <string name="today_greeting">Langkah kecil, rumah lebih segar.</string>
+    <string name="today_all_done">Semua tugas hari ini selesai! Istirahat dan nikmati rumah Anda yang bersih.</string>
+    <string name="today_no_tasks">Tidak ada tugas yang dijadwalkan untuk hari ini.</string>
+    <string name="section_overdue">Terlambat</string>
+    <string name="section_today">Jadwal Hari Ini</string>
+    <string name="section_completed_today">Selesai Hari Ini</string>
+    <string name="undo">Urungkan</string>
+    <string name="task_completed_msg">Selesai! Jadwal berikutnya dihitung otomatis.</string>
+    <string name="task_undo_msg">Penyelesaian dibatalkan.</string>
+
+    <!-- Rooms Screen -->
+    <string name="rooms_title">Ruangan</string>
+    <string name="rooms_subtitle">Rawat setiap sudut rumah dengan perhatian kecil.</string>
+    <string name="btn_add_room">Tambah Ruangan</string>
+    <string name="room_tasks_count">%1$d tugas</string>
+    <string name="room_overdue_badge">%1$d terlambat</string>
+
+    <!-- Tasks & Routine Dialogs -->
+    <string name="dialog_add_task">Tugas Baru</string>
+    <string name="dialog_edit_task">Edit Tugas</string>
+    <string name="dialog_add_room">Ruangan Baru</string>
+    <string name="dialog_edit_room">Edit Ruangan</string>
+    <string name="task_title_hint">Nama tugas (misal: Lap meja dapur)</string>
+    <string name="room_name_hint">Nama ruangan (misal: Ruang Tamu)</string>
+    <string name="select_room">Ruangan</string>
+    <string name="recurrence_label">Interval Pengulangan</string>
+    <string name="interval_daily">Setiap hari (1 hari)</string>
+    <string name="interval_2days">Setiap 2 hari</string>
+    <string name="interval_3days">Setiap 3 hari</string>
+    <string name="interval_weekly">Setiap minggu (7 hari)</string>
+    <string name="interval_2weeks">Setiap 2 minggu (14 hari)</string>
+    <string name="interval_monthly">Setiap bulan (30 hari)</string>
+    <string name="interval_custom">Kustom (%1$d hari)</string>
+    <string name="custom_days_prompt">Jumlah hari (1-365)</string>
+    <string name="btn_save">Simpan</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_delete">Hapus</string>
+    <string name="confirm_delete_title">Hapus item ini?</string>
+    <string name="confirm_delete_room_desc">Menghapus ruangan ini juga akan menghapus semua tugas di dalamnya.</string>
+    <string name="confirm_delete_task_desc">Yakin ingin menghapus tugas ini?</string>
+
+    <!-- Plan Screen -->
+    <string name="plan_title">Rencana Saya</string>
+    <string name="plan_subtitle">Semua rutinitas berkala untuk rumah Anda.</string>
+    <string name="btn_add_task">Tambah Tugas</string>
+    <string name="due_in_days">Jatuh tempo dalam %1$d hari</string>
+    <string name="due_today_badge">Hari Ini</string>
+    <string name="due_overdue_badge">Terlambat %1$d hari</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Pengaturan</string>
+    <string name="reminder_section_title">Pengingat Harian yang Tenang</string>
+    <string name="reminder_section_desc">Hanya menerima satu notifikasi di hari Anda memiliki tugas pembersihan.</string>
+    <string name="reminder_time">Waktu Pengingat</string>
+    <string name="btn_toggle_reminder_on">Nyalakan Pengingat</string>
+    <string name="btn_toggle_reminder_off">Matikan Pengingat</string>
+    <string name="backup_section_title">Cadangkan &amp; Amankan</string>
+    <string name="backup_section_desc">Ekspor rencana ke berkas JSON untuk berpindah ponsel tanpa khawatir. 100% luring.</string>
+    <string name="btn_export_backup">Ekspor Cadangan (JSON)</string>
+    <string name="btn_import_backup">Pulihkan dari Cadangan</string>
+    <string name="backup_success">Cadangan berhasil dipulihkan!</string>
+    <string name="backup_error">Berkas cadangan tidak valid.</string>
+    <string name="about_app">Tentang Aplikasi</string>
+    <string name="app_version">Versi 1.0.0 (Native Release)</string>
+    <string name="privacy_title">Kebijakan Privasi</string>
+    <string name="privacy_summary">100% luring dan privat. Tanpa akun, pelacak, atau pengumpulan data.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">Beri Ruang untuk Ketenangan.</string>
+    <string name="onboarding_1_desc">Tak perlu membebani pikiran dengan tugas rumah. Satukan semua ruangan dan rutinitas di satu tempat.</string>
+    <string name="onboarding_2_title">Rencanakan Sekali, Nikmati.</string>
+    <string name="onboarding_2_desc">Tandai tugas yang selesai, tanggal berikutnya akan otomatis dihitung.</string>
+    <string name="onboarding_3_title">Kendali Penuh di Tangan Anda.</string>
+    <string name="onboarding_3_desc">Aktifkan pengingat ramah hanya pada hari Anda memiliki tugas terjadwal.</string>
+    <string name="btn_enable_notifications">Izinkan Pengingat</string>
+    <string name="btn_start_with_starter_plan">Mulai dengan Contoh Jadwal</string>
+    <string name="btn_skip_setup">Lewati</string>
+    <string name="btn_continue">Lanjut</string>
+
+    <!-- Sample Default Content -->
+    <string name="room_kitchen">Dapur</string>
+    <string name="room_living">Ruang Tamu</string>
+    <string name="room_bathroom">Kamar Mandi</string>
+    <string name="room_bedroom">Kamar Tidur</string>
+
+    <string name="task_wipe_counters">Lap meja dapur</string>
+    <string name="task_take_trash">Buang sampah</string>
+    <string name="task_vacuum_living">Sapu / vakum ruang tamu</string>
+    <string name="task_dust_surfaces">Bersihkan debu meja &amp; rak</string>
+    <string name="task_clean_sink">Bersihkan wastafel &amp; cermin</string>
+    <string name="task_mop_bathroom">Pel lantai kamar mandi</string>
+    <string name="task_change_sheets">Ganti sprei tempat tidur</string>
+    <string name="task_ventilate">Buka jendela kamar tidur</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Pengingat Pembersihan Rumah</string>
+    <string name="notif_channel_desc">Notifikasi lembut untuk tugas pembersihan hari ini.</string>
+    <string name="notif_title">Rencana Rumah Hari Ini</string>
+    <string name="notif_body_single">Anda memiliki 1 tugas untuk hari ini: %1$s</string>
+    <string name="notif_body_multi">Anda memiliki %1$d tugas untuk hari ini: %2$s</string>
+
+    <string name="app_short_name">Rutinitas Rumah</string>
+    <string name="settings_language_title">Bahasa</string>
+    <string name="settings_language_desc">Pilih bahasa pilihan Anda</string>
+    <string name="language_system_default">Bahasa Sistem (Default)</string>
+    <string name="language_dialog_title">Pilih Bahasa</string>
+</resources>

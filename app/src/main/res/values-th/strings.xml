@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">กิจวัตรบ้าน: งานบ้านและความสะอาด</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">วันนี้</string>
+    <string name="nav_rooms">ห้อง</string>
+    <string name="nav_plan">แผนของฉัน</string>
+    <string name="nav_settings">การตั้งค่า</string>
+
+    <!-- Promotional Launch Mode -->
+    <string name="promo_badge">พรีวิว</string>
+    <string name="promo_dialog_title">ทดลองใช้ฟรีช่วงเปิดตัว</string>
+    <string name="promo_dialog_subtitle">ยินดีต้อนรับ! ในช่วงเปิดตัวและโปรโมชั่น ทุกฟีเจอร์เปิดให้ทุกคนใช้งานได้ฟรี 100%</string>
+    <string name="promo_feature_1">เพิ่มห้องและงานบ้านได้ไม่จำกัด</string>
+    <string name="promo_feature_1_desc">จัดการทุกมุมของบ้านได้อย่างอิสระโดยไม่มีข้อจำกัด</string>
+    <string name="promo_feature_2">กำหนดรอบการทำซ้ำเองได้</string>
+    <string name="promo_feature_2_desc">ตั้งค่าความถี่การทำความสะอาดได้ตั้งแต่ 1 ถึง 365 วัน</string>
+    <string name="promo_feature_3">ตั้งเวลาแจ้งเตือนที่สะดวก</string>
+    <string name="promo_feature_3_desc">เลือกเวลาที่ต้องการรับการแจ้งเตือนงานบ้านประจำวัน</string>
+    <string name="promo_future_notice_title">ประกาศเกี่ยวกับเวอร์ชันในอนาคต</string>
+    <string name="promo_future_notice_desc">นี่คือเวอร์ชันพรีวิวใช้งานก่อนเปิดตัวจริง ในการอัปเดตข้างหน้าอาจมีฟีเจอร์ Pro เพิ่มเติม แต่ข้อมูล ห้อง และงานบ้านทั้งหมดที่คุณสร้างขึ้นในช่วงทดลองใช้นี้จะถูกบันทึกไว้อย่างปลอดภัยบนเครื่องของคุณตลอดไปและจะไม่มีวันสูญหาย</string>
+    <string name="promo_btn_dismiss">รับทราบ ขอบคุณ</string>
+    <string name="promo_settings_card_title">รุ่นเปิดตัวพิเศษ (ปลดล็อกทุกฟีเจอร์)</string>
+    <string name="promo_settings_card_desc">เพิ่มห้องไม่จำกัด กำหนดรอบเอง และการแจ้งเตือนเปิดให้ใช้ฟรีในขณะนี้</string>
+
+    <!-- Today Screen -->
+    <string name="today_greeting">ทีละก้าวเล็กๆ เพื่อบ้านที่สดใส</string>
+    <string name="today_all_done">งานบ้านวันนี้เสร็จหมดแล้ว! พักผ่อนและเพลิดเพลินกับบ้านที่สะอาด</string>
+    <string name="today_no_tasks">ไม่มีงานบ้านที่ต้องทำในวันนี้</string>
+    <string name="section_overdue">เกินกำหนด</string>
+    <string name="section_today">งานสำหรับวันนี้</string>
+    <string name="section_completed_today">เสร็จแล้ววันนี้</string>
+    <string name="undo">เลิกทำ</string>
+    <string name="task_completed_msg">เรียบร้อย! ระบบกำหนดรอบถัดไปให้แล้ว</string>
+    <string name="task_undo_msg">ยกเลิกการเสร็จสิ้นแล้ว</string>
+
+    <!-- Rooms Screen -->
+    <string name="rooms_title">รายการห้อง</string>
+    <string name="rooms_subtitle">ดูแลบ้านทีละห้อง สร้างจังหวะชีวิตที่ลงตัว</string>
+    <string name="btn_add_room">เพิ่มห้อง</string>
+    <string name="room_tasks_count">%1$d งาน</string>
+    <string name="room_overdue_badge">เกินกำหนด %1$d งาน</string>
+
+    <!-- Tasks & Routine Dialogs -->
+    <string name="dialog_add_task">เพิ่มงานบ้าน</string>
+    <string name="dialog_edit_task">แก้ไขงานบ้าน</string>
+    <string name="dialog_add_room">เพิ่มห้องใหม่</string>
+    <string name="dialog_edit_room">แก้ไขชื่อห้อง</string>
+    <string name="task_title_hint">ชื่องานบ้าน (เช่น เช็ดเคาน์เตอร์ครัว)</string>
+    <string name="room_name_hint">ชื่อห้อง (เช่น ห้องนั่งเล่น)</string>
+    <string name="select_room">ห้อง</string>
+    <string name="recurrence_label">รอบการทำซ้ำ</string>
+    <string name="interval_daily">ทุกวัน (1 วัน)</string>
+    <string name="interval_2days">ทุก 2 วัน</string>
+    <string name="interval_3days">ทุก 3 วัน</string>
+    <string name="interval_weekly">ทุกสัปดาห์ (7 วัน)</string>
+    <string name="interval_2weeks">ทุก 2 สัปดาห์ (14 วัน)</string>
+    <string name="interval_monthly">ทุกเดือน (30 วัน)</string>
+    <string name="interval_custom">กำหนดเอง (%1$d วัน)</string>
+    <string name="custom_days_prompt">จำนวนวัน (1-365)</string>
+    <string name="btn_save">บันทึก</string>
+    <string name="btn_cancel">ยกเลิก</string>
+    <string name="btn_delete">ลบ</string>
+    <string name="confirm_delete_title">ลบรายการนี้?</string>
+    <string name="confirm_delete_room_desc">การลบห้องนี้จะลบงานบ้านทั้งหมดที่อยู่ภายในห้องนี้ด้วย</string>
+    <string name="confirm_delete_task_desc">คุณแน่ใจหรือไม่ว่าต้องการลบงานบ้านนี้?</string>
+
+    <!-- Plan Screen -->
+    <string name="plan_title">แผนของฉัน</string>
+    <string name="plan_subtitle">กิจวัตรทำความสะอาดประจำรอบทั้งหมดภายในบ้าน</string>
+    <string name="btn_add_task">เพิ่มงานบ้าน</string>
+    <string name="due_in_days">ครบกำหนดในอีก %1$d วัน</string>
+    <string name="due_today_badge">วันนี้</string>
+    <string name="due_overdue_badge">เกินกำหนดมาแล้ว %1$d วัน</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">การตั้งค่า</string>
+    <string name="reminder_section_title">แจ้งเตือนเบาๆ ประจำวัน</string>
+    <string name="reminder_section_desc">รับการแจ้งเตือนเพียงครั้งเดียวเฉพาะในวันที่มีงานบ้านกำหนดไว้</string>
+    <string name="reminder_time">เวลาแจ้งเตือน</string>
+    <string name="btn_toggle_reminder_on">เปิดการแจ้งเตือน</string>
+    <string name="btn_toggle_reminder_off">ปิดการแจ้งเตือน</string>
+    <string name="backup_section_title">ปลอดภัยและสำรองข้อมูลได้</string>
+    <string name="backup_section_desc">ส่งออกแผนงานเป็นไฟล์เพื่อย้ายไปยังมือถือเครื่องใหม่ได้อย่างง่ายดาย ออฟไลน์ 100%</string>
+    <string name="btn_export_backup">ส่งออกข้อมูลสำรอง (JSON)</string>
+    <string name="btn_import_backup">กู้คืนจากข้อมูลสำรอง</string>
+    <string name="backup_success">กู้คืนข้อมูลสำเร็จแล้ว!</string>
+    <string name="backup_error">ไฟล์สำรองข้อมูลไม่ถูกต้อง แผนงานไม่เปลี่ยนแปลง</string>
+    <string name="about_app">เกี่ยวกับแอปพลิเคชัน</string>
+    <string name="app_version">เวอร์ชัน 1.0.0 (Native Release)</string>
+    <string name="privacy_title">นโยบายความเป็นส่วนตัว</string>
+    <string name="privacy_summary">ออฟไลน์และเป็นส่วนตัว 100% ไม่ต้องลงทะเบียน ไม่ใช้เซิร์ฟเวอร์ ไม่เก็บข้อมูลส่วนตัว</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">ให้สมองได้พักผ่อน</string>
+    <string name="onboarding_1_desc">ไม่ต้องจำงานบ้านทั้งหมดไว้ในหัว รวมทุกห้องและกิจวัตรไว้ในที่เดียว</string>
+    <string name="onboarding_2_title">วางแผนครั้งเดียว แล้วสบายใจ</string>
+    <string name="onboarding_2_desc">ตั้งเวลารายวัน รายสัปดาห์ หรือรายเดือน เมื่อทำเสร็จระบบจะคำนวณวันถัดไปให้อัตโนมัติ</string>
+    <string name="onboarding_3_title">คุมทุกอย่างได้อยู่หมัด</string>
+    <string name="onboarding_3_desc">รับการแจ้งเตือนที่นุ่มนวลในวันที่มีงานบ้าน เพื่อไม่ให้รู้สึกเหนื่อยหรือวุ่นวาย</string>
+    <string name="btn_enable_notifications">อนุญาตการแจ้งเตือน</string>
+    <string name="btn_start_with_starter_plan">เริ่มต้นด้วยแผนตัวอย่าง</string>
+    <string name="btn_skip_setup">ข้าม</string>
+    <string name="btn_continue">ดำเนินการต่อ</string>
+
+    <!-- Sample Default Content -->
+    <string name="room_kitchen">ห้องครัว</string>
+    <string name="room_living">ห้องนั่งเล่น</string>
+    <string name="room_bathroom">ห้องน้ำ</string>
+    <string name="room_bedroom">ห้องนอน</string>
+
+    <string name="task_wipe_counters">เช็ดเคาน์เตอร์ครัว</string>
+    <string name="task_take_trash">นำขยะไปทิ้ง</string>
+    <string name="task_vacuum_living">ดูดฝุ่นพื้นห้องนั่งเล่น</string>
+    <string name="task_dust_surfaces">ปัดฝุ่นชั้นวางและโต๊ะกาแฟ</string>
+    <string name="task_clean_sink">ล้างอ่างล้างหน้าและเช็ดกระจก</string>
+    <string name="task_mop_bathroom">ถูพื้นห้องน้ำ</string>
+    <string name="task_change_sheets">เปลี่ยนผ้าปูที่นอน</string>
+    <string name="task_ventilate">เปิดหน้าต่างระบายอากาศห้องนอน</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">การแจ้งเตือนงานบ้าน</string>
+    <string name="notif_channel_desc">การแจ้งเตือนเบาๆ สำหรับงานบ้านที่มีกำหนดในวันนี้</string>
+    <string name="notif_title">แผนทำความสะอาดวันนี้</string>
+    <string name="notif_body_single">วันนี้คุณมีงานบ้าน 1 รายการ: %1$s</string>
+    <string name="notif_body_multi">วันนี้คุณมีงานบ้าน %1$d รายการ: %2$s</string>
+
+    <string name="app_short_name">กิจวัตรบ้าน</string>
+    <string name="settings_language_title">ภาษา</string>
+    <string name="settings_language_desc">เลือกภาษาที่คุณต้องการ</string>
+    <string name="language_system_default">ภาษาของระบบ (ค่าเริ่มต้น)</string>
+    <string name="language_dialog_title">เลือกภาษา</string>
+</resources>

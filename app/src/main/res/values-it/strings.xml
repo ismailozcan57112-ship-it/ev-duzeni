@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pulizie di Casa: Organizzatore</string>
+
+    <string name="nav_today">Oggi</string>
+    <string name="nav_rooms">Stanze</string>
+    <string name="nav_plan">Mio Piano</string>
+    <string name="nav_settings">Impostazioni</string>
+
+    <string name="promo_badge">ANTEPRIMA</string>
+    <string name="promo_dialog_title">Prova Gratuita di Lancio</string>
+    <string name="promo_dialog_subtitle">Benvenuto! Durante la fase di lancio, tutte le funzionalità sono disponibili gratuitamente al 100%.</string>
+    <string name="promo_feature_1">Stanze e Compiti Illimitati</string>
+    <string name="promo_feature_1_desc">Pianifica ogni angolo della tua casa senza vincoli.</string>
+    <string name="promo_feature_2">Frequenze Personalizzate</string>
+    <string name="promo_feature_2_desc">Imposta intervalli da 1 a 365 giorni.</string>
+    <string name="promo_feature_3">Orario di Notifica Dedicato</string>
+    <string name="promo_feature_3_desc">Scegli l\'orario ideale per il promemoria giornaliero.</string>
+    <string name="promo_future_notice_title">Informazioni sui Prossimi Aggiornamenti</string>
+    <string name="promo_future_notice_desc">Questa è una versione ad accesso anticipato. Nei futuri aggiornamenti potrebbero arrivare funzioni Pro opzionali. Tutti i dati creati durante questa prova rimarranno sempre al sicuro sul tuo dispositivo.</string>
+    <string name="promo_btn_dismiss">Ho Capito, Grazie</string>
+    <string name="promo_settings_card_title">Edizione di Lancio (Tutto Sbloccato)</string>
+    <string name="promo_settings_card_desc">Stanze illimitate, intervalli e promemoria gratuiti per il lancio.</string>
+
+    <string name="today_greeting">Piccoli passi, una casa fresca.</string>
+    <string name="today_all_done">Tutto fatto per oggi! Rilassati e goditi la casa.</string>
+    <string name="today_no_tasks">Nessun compito previsto per oggi.</string>
+    <string name="section_overdue">In ritardo</string>
+    <string name="section_today">Da fare oggi</string>
+    <string name="section_completed_today">Completati oggi</string>
+    <string name="undo">Annulla</string>
+    <string name="task_completed_msg">Fatto! Nuova scadenza calcolata.</string>
+    <string name="task_undo_msg">Azione annullata.</string>
+
+    <string name="rooms_title">Stanze</string>
+    <string name="rooms_subtitle">Prenditi cura di ogni ambiente della tua casa.</string>
+    <string name="btn_add_room">Aggiungi Stanza</string>
+    <string name="room_tasks_count">%1$d compiti</string>
+    <string name="room_overdue_badge">%1$d in ritardo</string>
+
+    <string name="dialog_add_task">Nuovo Compito</string>
+    <string name="dialog_edit_task">Modifica Compito</string>
+    <string name="dialog_add_room">Nuova Stanza</string>
+    <string name="dialog_edit_room">Modifica Stanza</string>
+    <string name="task_title_hint">Compito (es. Pulire il piano cottura)</string>
+    <string name="room_name_hint">Nome (es. Salotto)</string>
+    <string name="select_room">Stanza</string>
+    <string name="recurrence_label">Ripetizione</string>
+    <string name="interval_daily">Ogni giorno (1 giorno)</string>
+    <string name="interval_2days">Ogni 2 giorni</string>
+    <string name="interval_3days">Ogni 3 giorni</string>
+    <string name="interval_weekly">Ogni settimana (7 giorni)</string>
+    <string name="interval_2weeks">Ogni 2 settimane (14 giorni)</string>
+    <string name="interval_monthly">Ogni mese (30 giorni)</string>
+    <string name="interval_custom">Personalizzato (%1$d giorni)</string>
+    <string name="custom_days_prompt">Giorni (1-365)</string>
+    <string name="btn_save">Salva</string>
+    <string name="btn_cancel">Annulla</string>
+    <string name="btn_delete">Elimina</string>
+    <string name="confirm_delete_title">Eliminare elemento?</string>
+    <string name="confirm_delete_room_desc">Eliminando questa stanza rimuoverai anche tutti i compiti associati.</string>
+    <string name="confirm_delete_task_desc">Sei sicuro di voler eliminare questo compito?</string>
+
+    <string name="plan_title">Mio Piano</string>
+    <string name="plan_subtitle">Tutte le routine di pulizia della casa.</string>
+    <string name="btn_add_task">Aggiungi Compito</string>
+    <string name="due_in_days">Scade tra %1$d giorni</string>
+    <string name="due_today_badge">Oggi</string>
+    <string name="due_overdue_badge">%1$d giorni di ritardo</string>
+
+    <string name="settings_title">Impostazioni</string>
+    <string name="reminder_section_title">Promemoria Giornaliero</string>
+    <string name="reminder_section_desc">Ricevi una sola notifica solo nei giorni con compiti programmati.</string>
+    <string name="reminder_time">Orario promemoria</string>
+    <string name="btn_toggle_reminder_on">Attiva Promemoria</string>
+    <string name="btn_toggle_reminder_off">Disattiva Promemoria</string>
+    <string name="backup_section_title">Backup</string>
+    <string name="backup_section_desc">Esporta il tuo piano su file per trasferirlo su un nuovo telefono. 100% offline.</string>
+    <string name="btn_export_backup">Esporta Backup (JSON)</string>
+    <string name="btn_import_backup">Ripristina da Backup</string>
+    <string name="backup_success">Backup ripristinato con successo!</string>
+    <string name="backup_error">File di backup non valido.</string>
+    <string name="about_app">Informazioni sull\'App</string>
+    <string name="app_version">Versione 1.0.0 (Native Release)</string>
+    <string name="privacy_title">Informativa sulla Privacy</string>
+    <string name="privacy_summary">100% offline e privato. Nessun account, nessuna raccolta dati.</string>
+
+    <string name="onboarding_1_title">Fai spazio alla serenità.</string>
+    <string name="onboarding_1_desc">Non tenere le faccende a mente. Raccogli le tue routine in un unico posto.</string>
+    <string name="onboarding_2_title">Pianifica una volta e rilassati.</string>
+    <string name="onboarding_2_desc">Imposta la frequenza. Una volta completato un compito, la data successiva viene calcolata.</string>
+    <string name="onboarding_3_title">Tutto sotto controllo.</string>
+    <string name="onboarding_3_desc">Attiva i promemoria per non scordare i compiti nei giorni prefissati.</string>
+    <string name="btn_enable_notifications">Consenti Notifiche</string>
+    <string name="btn_start_with_starter_plan">Inizia con Piano di Esempio</string>
+    <string name="btn_skip_setup">Salta</string>
+    <string name="btn_continue">Continua</string>
+
+    <string name="room_kitchen">Cucina</string>
+    <string name="room_living">Salotto</string>
+    <string name="room_bathroom">Bagno</string>
+    <string name="room_bedroom">Camera da Letto</string>
+
+    <string name="task_wipe_counters">Pulire il piano della cucina</string>
+    <string name="task_take_trash">Buttare la spazzatura</string>
+    <string name="task_vacuum_living">Passare l\'aspirapolvere in salotto</string>
+    <string name="task_dust_surfaces">Spolverare mensole e tavolino</string>
+    <string name="task_clean_sink">Lavare lavandino e specchio</string>
+    <string name="task_mop_bathroom">Lavare il pavimento del bagno</string>
+    <string name="task_change_sheets">Cambiare le lenzuola</string>
+    <string name="task_ventilate">Arieggiare la camera</string>
+
+    <string name="notif_channel_name">Promemoria Pulizie</string>
+    <string name="notif_channel_desc">Notifiche discrete per le faccende di oggi.</string>
+    <string name="notif_title">Piano di Casa di Oggi</string>
+    <string name="notif_body_single">Hai 1 compito programmato per oggi: %1$s</string>
+    <string name="notif_body_multi">Hai %1$d compiti programmati per oggi: %2$s</string>
+
+    <string name="app_short_name">Pulizie di Casa</string>
+    <string name="settings_language_title">Lingua</string>
+    <string name="settings_language_desc">Scegli la tua lingua preferita</string>
+    <string name="language_system_default">Lingua di sistema (Predefinita)</string>
+    <string name="language_dialog_title">Seleziona lingua</string>
+</resources>

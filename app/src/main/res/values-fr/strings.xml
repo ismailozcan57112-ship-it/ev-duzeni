@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plan de Ménage: Tâches Ménagères</string>
+
+    <string name="nav_today">Aujourd\'hui</string>
+    <string name="nav_rooms">Pièces</string>
+    <string name="nav_plan">Mon Plan</string>
+    <string name="nav_settings">Paramètres</string>
+
+    <string name="promo_badge">AVANT-PREMIÈRE</string>
+    <string name="promo_dialog_title">Essai Gratuit de Lancement</string>
+    <string name="promo_dialog_subtitle">Bienvenue ! Durant la période de lancement, toutes les fonctionnalités sont 100% gratuites.</string>
+    <string name="promo_feature_1">Pièces et Tâches Illimitées</string>
+    <string name="promo_feature_1_desc">Organisez chaque coin de votre maison sans limite.</string>
+    <string name="promo_feature_2">Fréquences Personnalisées</string>
+    <string name="promo_feature_2_desc">Définissez des répétitions de 1 à 365 jours.</string>
+    <string name="promo_feature_3">Heure de Rappel Sur Mesure</string>
+    <string name="promo_feature_3_desc">Choisissez l\'heure exacte de votre notification quotidienne.</string>
+    <string name="promo_future_notice_title">Information sur les Mises à Jour Futures</string>
+    <string name="promo_future_notice_desc">Cette version est un accès anticipé. Des fonctionnalités Pro optionnelles pourront être ajoutées ultérieurement. Toutes les données créées restent en sécurité sur votre appareil et ne seront jamais perdues.</string>
+    <string name="promo_btn_dismiss">Compris, Merci</string>
+    <string name="promo_settings_card_title">Édition Lancement (Tout Débloqué)</string>
+    <string name="promo_settings_card_desc">Pièces illimitées, fréquences libres et rappels gratuits pour le lancement.</string>
+
+    <string name="today_greeting">Petits pas, une maison fraîche.</string>
+    <string name="today_all_done">Tout est fait pour aujourd\'hui ! Reposez-vous.</string>
+    <string name="today_no_tasks">Aucune tâche prévue aujourd\'hui.</string>
+    <string name="section_overdue">En retard</string>
+    <string name="section_today">À faire aujourd\'hui</string>
+    <string name="section_completed_today">Terminées aujourd\'hui</string>
+    <string name="undo">Annuler</string>
+    <string name="task_completed_msg">Terminé ! Prochaine date calculée.</string>
+    <string name="task_undo_msg">Action annulée.</string>
+
+    <string name="rooms_title">Pièces</string>
+    <string name="rooms_subtitle">Prenez soin de chaque espace de votre maison.</string>
+    <string name="btn_add_room">Ajouter une Pièce</string>
+    <string name="room_tasks_count">%1$d tâches</string>
+    <string name="room_overdue_badge">%1$d en retard</string>
+
+    <string name="dialog_add_task">Nouvelle Tâche</string>
+    <string name="dialog_edit_task">Modifier la Tâche</string>
+    <string name="dialog_add_room">Nouvelle Pièce</string>
+    <string name="dialog_edit_room">Modifier la Pièce</string>
+    <string name="task_title_hint">Tâche (ex. Nettoyer le plan de travail)</string>
+    <string name="room_name_hint">Nom (ex. Salon)</string>
+    <string name="select_room">Pièce</string>
+    <string name="recurrence_label">Répétition</string>
+    <string name="interval_daily">Chaque jour (1 jour)</string>
+    <string name="interval_2days">Tous les 2 jours</string>
+    <string name="interval_3days">Tous les 3 jours</string>
+    <string name="interval_weekly">Chaque semaine (7 jours)</string>
+    <string name="interval_2weeks">Toutes les 2 semaines (14 jours)</string>
+    <string name="interval_monthly">Chaque mois (30 jours)</string>
+    <string name="interval_custom">Personnalisé (%1$d jours)</string>
+    <string name="custom_days_prompt">Nombre de jours (1-365)</string>
+    <string name="btn_save">Enregistrer</string>
+    <string name="btn_cancel">Annuler</string>
+    <string name="btn_delete">Supprimer</string>
+    <string name="confirm_delete_title">Supprimer cet élément ?</string>
+    <string name="confirm_delete_room_desc">Supprimer cette pièce supprimera également toutes ses tâches.</string>
+    <string name="confirm_delete_task_desc">Voulez-vous vraiment supprimer cette tâche ?</string>
+
+    <string name="plan_title">Mon Plan</string>
+    <string name="plan_subtitle">Toutes vos routines d\'entretien.</string>
+    <string name="btn_add_task">Ajouter une Tâche</string>
+    <string name="due_in_days">Prévu dans %1$d jours</string>
+    <string name="due_today_badge">Aujourd\'hui</string>
+    <string name="due_overdue_badge">%1$d jours de retard</string>
+
+    <string name="settings_title">Paramètres</string>
+    <string name="reminder_section_title">Rappel Quotidien Discret</string>
+    <string name="reminder_section_desc">Recevez une seule notification uniquement les jours où des tâches sont prévues.</string>
+    <string name="reminder_time">Heure du rappel</string>
+    <string name="btn_toggle_reminder_on">Activer les Rappels</string>
+    <string name="btn_toggle_reminder_off">Désactiver les Rappels</string>
+    <string name="backup_section_title">Sauvegarde</string>
+    <string name="backup_section_desc">Exportez votre plan pour changer de téléphone en toute sérénité. 100% hors ligne.</string>
+    <string name="btn_export_backup">Exporter Sauvegarde (JSON)</string>
+    <string name="btn_import_backup">Restaurer Sauvegarde</string>
+    <string name="backup_success">Sauvegarde restaurée avec succès !</string>
+    <string name="backup_error">Fichier de sauvegarde non valide.</string>
+    <string name="about_app">À propos de l\'Application</string>
+    <string name="app_version">Version 1.0.0 (Native Release)</string>
+    <string name="privacy_title">Politique de Confidentialité</string>
+    <string name="privacy_summary">100% hors ligne et privé. Aucun compte, aucune collecte de données.</string>
+
+    <string name="onboarding_1_title">Libérez votre esprit.</string>
+    <string name="onboarding_1_desc">Inutile de garder le ménage en tête. Regroupez toutes vos routines en un seul endroit.</string>
+    <string name="onboarding_2_title">Planifiez et détendez-vous.</string>
+    <string name="onboarding_2_desc">Après chaque validation, la prochaine date est automatiquement recalculée.</string>
+    <string name="onboarding_3_title">Gardez le contrôle.</string>
+    <string name="onboarding_3_desc">Activez un rappel discret les jours où vous avez des tâches prévues.</string>
+    <string name="btn_enable_notifications">Autoriser les Rappels</string>
+    <string name="btn_start_with_starter_plan">Démarrer avec un Plan Exemple</string>
+    <string name="btn_skip_setup">Passer</string>
+    <string name="btn_continue">Continuer</string>
+
+    <string name="room_kitchen">Cuisine</string>
+    <string name="room_living">Salon</string>
+    <string name="room_bathroom">Salle de Bain</string>
+    <string name="room_bedroom">Chambre</string>
+
+    <string name="task_wipe_counters">Essuyer le plan de travail</string>
+    <string name="task_take_trash">Sortir la poubelle</string>
+    <string name="task_vacuum_living">Passer l\'aspirateur au salon</string>
+    <string name="task_dust_surfaces">Dépoussiérer les meubles</string>
+    <string name="task_clean_sink">Nettoyer lavabo et miroir</string>
+    <string name="task_mop_bathroom">Laver le sol de la salle de bain</string>
+    <string name="task_change_sheets">Changer les draps</string>
+    <string name="task_ventilate">Aérer la chambre</string>
+
+    <string name="notif_channel_name">Rappels de Ménage</string>
+    <string name="notif_channel_desc">Notifications douces pour vos tâches du jour.</string>
+    <string name="notif_title">Plan Maison du Jour</string>
+    <string name="notif_body_single">Vous avez 1 tâche prévue aujourd\'hui : %1$s</string>
+    <string name="notif_body_multi">Vous avez %1$d tâches prévues aujourd\'hui : %2$s</string>
+
+    <string name="app_short_name">Plan de Ménage</string>
+    <string name="settings_language_title">Langue</string>
+    <string name="settings_language_desc">Choisissez votre langue préférée</string>
+    <string name="language_system_default">Langue du système (Par défaut)</string>
+    <string name="language_dialog_title">Choisir la langue</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">집안일 루틴: 청소 플래너</string>
+
+    <string name="nav_today">오늘</string>
+    <string name="nav_rooms">공간</string>
+    <string name="nav_plan">내 루틴</string>
+    <string name="nav_settings">설정</string>
+
+    <string name="promo_badge">사전공개</string>
+    <string name="promo_dialog_title">출시 기념 무료 체험</string>
+    <string name="promo_dialog_subtitle">환영합니다! 출시 및 사전 공개 기간 동안 모든 기능을 100% 무료로 이용하실 수 있습니다.</string>
+    <string name="promo_feature_1">공간 및 집안일 무제한 추가</string>
+    <string name="promo_feature_1_desc">집안 구석구석을 제한 없이 깔끔하게 관리하세요.</string>
+    <string name="promo_feature_2">자유로운 반복 주기 설정</string>
+    <string name="promo_feature_2_desc">1일부터 365일까지 원하는 주기를 자유롭게 지정합니다.</string>
+    <string name="promo_feature_3">원하는 시간 맞춤 알림</string>
+    <string name="promo_feature_3_desc">매일 원하는 시간에 기분 좋은 알림을 받으세요.</string>
+    <string name="promo_future_notice_title">향후 업데이트 관련 안내</string>
+    <string name="promo_future_notice_desc">본 버전은 얼리 액세스 버전입니다. 추후 업데이트에서 Pro 기능이 추가될 수 있으나, 이 체험 기간 동안 기기에 작성하신 모든 데이터와 공간/루틴은 절대 사라지지 않고 안전하게 보존됩니다.</string>
+    <string name="promo_btn_dismiss">확인했습니다, 감사합니다</string>
+    <string name="promo_settings_card_title">출시 기념 에디션 (모든 기능 개방)</string>
+    <string name="promo_settings_card_desc">무제한 공간 추가, 맞춤 반복 주기, 알림 기능이 현재 전면 무료입니다.</string>
+
+    <string name="today_greeting">작은 한 걸음, 쾌적한 우리 집.</string>
+    <string name="today_all_done">오늘 할 일을 모두 마쳤습니다! 편안한 휴식을 즐기세요.</string>
+    <string name="today_no_tasks">오늘 예정된 집안일이 없습니다.</string>
+    <string name="section_overdue">기한 지난 일</string>
+    <string name="section_today">오늘 할 일</string>
+    <string name="section_completed_today">오늘 완료한 일</string>
+    <string name="undo">실행 취소</string>
+    <string name="task_completed_msg">완료되었습니다! 다음 주기가 자동 계산되었습니다.</string>
+    <string name="task_undo_msg">완료가 취소되었습니다.</string>
+
+    <string name="rooms_title">공간 목록</string>
+    <string name="rooms_subtitle">방마다 정성을 조금씩. 나만의 정돈 루틴을 만드세요.</string>
+    <string name="btn_add_room">공간 추가</string>
+    <string name="room_tasks_count">할 일 %1$d개</string>
+    <string name="room_overdue_badge">%1$d개 지연</string>
+
+    <string name="dialog_add_task">새 집안일</string>
+    <string name="dialog_edit_task">집안일 수정</string>
+    <string name="dialog_add_room">새 공간</string>
+    <string name="dialog_edit_room">공간 수정</string>
+    <string name="task_title_hint">할 일 내용 (예: 싱크대 상판 닦기)</string>
+    <string name="room_name_hint">공간 이름 (예: 거실)</string>
+    <string name="select_room">공간</string>
+    <string name="recurrence_label">반복 주기</string>
+    <string name="interval_daily">매일 (1일마다)</string>
+    <string name="interval_2days">2일마다</string>
+    <string name="interval_3days">3일마다</string>
+    <string name="interval_weekly">매주 (7일마다)</string>
+    <string name="interval_2weeks">2주마다 (14일마다)</string>
+    <string name="interval_monthly">매월 (30일마다)</string>
+    <string name="interval_custom">직접 설정 (%1$d일마다)</string>
+    <string name="custom_days_prompt">일수 (1~365)</string>
+    <string name="btn_save">저장</string>
+    <string name="btn_cancel">취소</string>
+    <string name="btn_delete">삭제</string>
+    <string name="confirm_delete_title">항목을 삭제하시겠습니까?</string>
+    <string name="confirm_delete_room_desc">이 공간을 삭제하면 포함된 모든 집안일도 함께 삭제됩니다.</string>
+    <string name="confirm_delete_task_desc">이 집안일을 정말 삭제하시겠습니까?</string>
+
+    <string name="plan_title">내 루틴</string>
+    <string name="plan_subtitle">집 전체의 주기적인 정돈 계획입니다.</string>
+    <string name="btn_add_task">집안일 추가</string>
+    <string name="due_in_days">%1$d일 후 예정</string>
+    <string name="due_today_badge">오늘</string>
+    <string name="due_overdue_badge">%1$d일 지연됨</string>
+
+    <string name="settings_title">설정</string>
+    <string name="reminder_section_title">매일 아침 다정한 알림</string>
+    <string name="reminder_section_desc">할 일이 예정된 날에만 하루 한 번 깔끔하게 알려드립니다.</string>
+    <string name="reminder_time">알림 시간</string>
+    <string name="btn_toggle_reminder_on">알림 켜기</string>
+    <string name="btn_toggle_reminder_off">알림 끄기</string>
+    <string name="backup_section_title">데이터 백업 및 복원</string>
+    <string name="backup_section_desc">파일로 내보내 기기 변경 시에도 간편하게 이전하세요. 100% 오프라인.</string>
+    <string name="btn_export_backup">백업 파일 내보내기 (JSON)</string>
+    <string name="btn_import_backup">백업 파일에서 복원</string>
+    <string name="backup_success">백업이 성공적으로 복원되었습니다!</string>
+    <string name="backup_error">유효하지 않은 백업 파일입니다.</string>
+    <string name="about_app">앱 정보</string>
+    <string name="app_version">버전 1.0.0 (Native Release)</string>
+    <string name="privacy_title">개인정보 처리방침</string>
+    <string name="privacy_summary">100% 오프라인 안심 앱. 회원가입이나 서버 데이터 수집이 전혀 없습니다.</string>
+
+    <string name="onboarding_1_title">마음에 여유를 더하세요.</string>
+    <string name="onboarding_1_desc">집안일을 머릿속에 담아두지 마세요. 우리 집의 모든 루틴을 한곳에 정리합니다.</string>
+    <string name="onboarding_2_title">한 번 설정하고 편안하게.</string>
+    <string name="onboarding_2_desc">완료 표시만 하면 다음 예정일이 자동으로 계산됩니다.</string>
+    <string name="onboarding_3_title">무리 없이 꾸준하게.</string>
+    <string name="onboarding_3_desc">할 일이 있는 날에만 조용히 알려드려 부담 없이 실천할 수 있습니다.</string>
+    <string name="btn_enable_notifications">알림 허용</string>
+    <string name="btn_start_with_starter_plan">샘플 플랜으로 시작하기</string>
+    <string name="btn_skip_setup">건너뛰기</string>
+    <string name="btn_continue">다음</string>
+
+    <string name="room_kitchen">주방</string>
+    <string name="room_living">거실</string>
+    <string name="room_bathroom">욕실</string>
+    <string name="room_bedroom">침실</string>
+
+    <string name="task_wipe_counters">싱크대 상판 닦기</string>
+    <string name="task_take_trash">쓰레기 비우기</string>
+    <string name="task_vacuum_living">거실 바닥 청소기 돌리기</string>
+    <string name="task_dust_surfaces">선반 및 탁자 먼지 털기</string>
+    <string name="task_clean_sink">세면대와 거울 닦기</string>
+    <string name="task_mop_bathroom">욕실 바닥 물청소</string>
+    <string name="task_change_sheets">침대 시트 교체하기</string>
+    <string name="task_ventilate">침실 환기하기</string>
+
+    <string name="notif_channel_name">청소 루틴 알림</string>
+    <string name="notif_channel_desc">오늘 예정된 집안일을 안내하는 알림입니다.</string>
+    <string name="notif_title">오늘의 집안일 루틴</string>
+    <string name="notif_body_single">오늘 예정된 집안일 1개가 있습니다: %1$s</string>
+    <string name="notif_body_multi">오늘 예정된 집안일 %1$d개가 있습니다: %2$s</string>
+
+    <string name="app_short_name">집안일 루틴</string>
+    <string name="settings_language_title">언어</string>
+    <string name="settings_language_desc">사용할 언어를 선택하세요</string>
+    <string name="language_system_default">시스템 언어 (기본값)</string>
+    <string name="language_dialog_title">언어 선택</string>
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lịch Dọn Nhà: Việc Nhà &amp; Phòng</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Hôm nay</string>
+    <string name="nav_rooms">Phòng</string>
+    <string name="nav_plan">Kế hoạch</string>
+    <string name="nav_settings">Cài đặt</string>
+
+    <!-- Promotional Launch Mode -->
+    <string name="promo_badge">BẢN THỬ NGHIỆM</string>
+    <string name="promo_dialog_title">Dùng Thử Miễn Phí Đợt Ra Mắt</string>
+    <string name="promo_dialog_subtitle">Chào mừng bạn! Trong giai đoạn ra mắt và quảng bá, tất cả các tính năng đều hoàn toàn miễn phí 100% cho mọi người.</string>
+    <string name="promo_feature_1">Không Giới Hạn Phòng &amp; Việc Nhà</string>
+    <string name="promo_feature_1_desc">Lên kế hoạch dọn dẹp cho từng góc nhà mà không có bất kỳ giới hạn nào.</string>
+    <string name="promo_feature_2">Lịch Lặp Lại Tùy Chỉnh</string>
+    <string name="promo_feature_2_desc">Cài đặt chu kỳ lặp lại linh hoạt từ 1 đến 365 ngày.</string>
+    <string name="promo_feature_3">Giờ Nhắc Nhở Riêng Biệt</string>
+    <string name="promo_feature_3_desc">Tự do chọn khung giờ nhận thông báo nhắc nhở hàng ngày.</string>
+    <string name="promo_future_notice_title">Thông Báo Về Các Phiên Bản Tương Lai</string>
+    <string name="promo_future_notice_desc">Đây là phiên bản trải nghiệm sớm (early access). Trong các bản cập nhật tương lai, có thể sẽ bổ sung các tính năng nâng cao (Pro/Gói trả phí). Tuy nhiên, mọi dữ liệu, phòng và kế hoạch bạn tạo trong thời gian này sẽ vĩnh viễn được lưu trên máy của bạn và không bao giờ bị mất.</string>
+    <string name="promo_btn_dismiss">Đã Hiểu, Cảm Ơn</string>
+    <string name="promo_settings_card_title">Phiên Bản Ra Mắt (Mở Khóa Toàn Bộ)</string>
+    <string name="promo_settings_card_desc">Không giới hạn phòng, chu kỳ tùy chỉnh và thông báo nhắc nhở hiện đang hoàn toàn miễn phí.</string>
+
+    <!-- Today Screen -->
+    <string name="today_greeting">Từng bước nhỏ, tổ ấm luôn tinh tươm.</string>
+    <string name="today_all_done">Toàn bộ việc nhà hôm nay đã xong! Hãy thư giãn và tận hưởng không gian sạch sẽ.</string>
+    <string name="today_no_tasks">Hôm nay không có việc nhà nào cần làm.</string>
+    <string name="section_overdue">Quá hạn</string>
+    <string name="section_today">Cần làm hôm nay</string>
+    <string name="section_completed_today">Đã hoàn thành hôm nay</string>
+    <string name="undo">Hoàn tác</string>
+    <string name="task_completed_msg">Đã xong! Lần dọn dẹp tiếp theo đã được lên lịch.</string>
+    <string name="task_undo_msg">Đã hủy đánh dấu hoàn thành.</string>
+
+    <!-- Rooms Screen -->
+    <string name="rooms_title">Danh Sách Phòng</string>
+    <string name="rooms_subtitle">Chăm chút từng căn phòng. Tạo nhịp sống gọn gàng cho riêng bạn.</string>
+    <string name="btn_add_room">Thêm Phòng</string>
+    <string name="room_tasks_count">%1$d việc</string>
+    <string name="room_overdue_badge">%1$d việc quá hạn</string>
+
+    <!-- Tasks & Routine Dialogs -->
+    <string name="dialog_add_task">Thêm Việc Nhà</string>
+    <string name="dialog_edit_task">Sửa Việc Nhà</string>
+    <string name="dialog_add_room">Thêm Phòng</string>
+    <string name="dialog_edit_room">Sửa Tên Phòng</string>
+    <string name="task_title_hint">Tên việc nhà (vd: Lau bếp)</string>
+    <string name="room_name_hint">Tên phòng (vd: Phòng khách)</string>
+    <string name="select_room">Phòng</string>
+    <string name="recurrence_label">Chu Kỳ Lặp Lại</string>
+    <string name="interval_daily">Mỗi ngày (1 ngày)</string>
+    <string name="interval_2days">Mỗi 2 ngày</string>
+    <string name="interval_3days">Mỗi 3 ngày</string>
+    <string name="interval_weekly">Hàng tuần (7 ngày)</string>
+    <string name="interval_2weeks">Mỗi 2 tuần (14 ngày)</string>
+    <string name="interval_monthly">Hàng tháng (30 ngày)</string>
+    <string name="interval_custom">Tùy chỉnh (%1$d ngày)</string>
+    <string name="custom_days_prompt">Số ngày (1-365)</string>
+    <string name="btn_save">Lưu</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="btn_delete">Xóa</string>
+    <string name="confirm_delete_title">Xóa mục này?</string>
+    <string name="confirm_delete_room_desc">Xóa phòng này sẽ đồng thời xóa toàn bộ các việc nhà bên trong phòng.</string>
+    <string name="confirm_delete_task_desc">Bạn có chắc chắn muốn xóa việc nhà này không?</string>
+
+    <!-- Plan Screen -->
+    <string name="plan_title">Kế Hoạch</string>
+    <string name="plan_subtitle">Tổng hợp tất cả công việc định kỳ trong gia đình.</string>
+    <string name="btn_add_task">Thêm Việc</string>
+    <string name="due_in_days">Đến hạn sau %1$d ngày</string>
+    <string name="due_today_badge">Hôm nay</string>
+    <string name="due_overdue_badge">Quá hạn %1$d ngày</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Cài Đặt</string>
+    <string name="reminder_section_title">Nhắc Nhở Nhẹ Nhàng Hàng Ngày</string>
+    <string name="reminder_section_desc">Chỉ gửi duy nhất 1 thông báo vào những ngày bạn có việc nhà cần làm.</string>
+    <string name="reminder_time">Giờ Nhắc Nhở</string>
+    <string name="btn_toggle_reminder_on">Bật Nhắc Nhở</string>
+    <string name="btn_toggle_reminder_off">Tắt Nhắc Nhở</string>
+    <string name="backup_section_title">Bảo Vệ Dữ Liệu Của Bạn</string>
+    <string name="backup_section_desc">Xuất kế hoạch ra tệp sao lưu để dễ dàng chuyển sang máy mới. Hoạt động 100% ngoại tuyến.</string>
+    <string name="btn_export_backup">Xuất Tệp Sao Lưu (JSON)</string>
+    <string name="btn_import_backup">Khôi Phục Từ Sao Lưu</string>
+    <string name="backup_success">Đã khôi phục kế hoạch thành công!</string>
+    <string name="backup_error">Tệp sao lưu không hợp lệ. Kế hoạch không thay đổi.</string>
+    <string name="about_app">Giới Thiệu Ứng Dụng</string>
+    <string name="app_version">Phiên bản 1.0.0 (Native Release)</string>
+    <string name="privacy_title">Chính Sách Quyền Riêng Tư</string>
+    <string name="privacy_summary">100% ngoại tuyến &amp; riêng tư. Không tài khoản, không máy chủ đám mây, không thu thập dữ liệu cá nhân.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">Cho Tâm Trí Thảnh Thơi.</string>
+    <string name="onboarding_1_desc">Không cần phải ghi nhớ mọi việc vặt trong đầu. Gom mọi căn phòng và thói quen dọn dẹp vào một nơi.</string>
+    <string name="onboarding_2_title">Lên Kế Hoạch Một Lần, Nhẹ Nhõm Dài Lâu.</string>
+    <string name="onboarding_2_desc">Cài đặt việc làm theo ngày, tuần hoặc tháng. Sau khi hoàn thành, ngày làm tiếp theo sẽ tự động được tính.</string>
+    <string name="onboarding_3_title">Luôn Làm Chủ Thời Gian.</string>
+    <string name="onboarding_3_desc">Nhận thông báo nhẹ nhàng vào ngày có việc cần làm để việc nhà không bao giờ là gánh nặng.</string>
+    <string name="btn_enable_notifications">Cho Phép Nhắc Nhở</string>
+    <string name="btn_start_with_starter_plan">Bắt Đầu Với Mẫu Có Sẵn</string>
+    <string name="btn_skip_setup">Bỏ Qua</string>
+    <string name="btn_continue">Tiếp Tục</string>
+
+    <!-- Sample Default Content -->
+    <string name="room_kitchen">Nhà Bếp</string>
+    <string name="room_living">Phòng Khách</string>
+    <string name="room_bathroom">Phòng Tắm</string>
+    <string name="room_bedroom">Phòng Ngủ</string>
+
+    <string name="task_wipe_counters">Lau mặt bàn bếp</string>
+    <string name="task_take_trash">Đổ rác</string>
+    <string name="task_vacuum_living">Hút bụi sàn phòng khách</string>
+    <string name="task_dust_surfaces">Lau bụi kệ và bàn trà</string>
+    <string name="task_clean_sink">Cọ bồn rửa mặt và gương</string>
+    <string name="task_mop_bathroom">Lau sàn phòng tắm</string>
+    <string name="task_change_sheets">Thay ga trải giường</string>
+    <string name="task_ventilate">Mở cửa thông gió phòng ngủ</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Nhắc Nhở Việc Nhà Hàng Ngày</string>
+    <string name="notif_channel_desc">Thông báo nhắc nhở nhẹ nhàng cho các việc nhà hôm nay.</string>
+    <string name="notif_title">Kế Hoạch Hôm Nay</string>
+    <string name="notif_body_single">Bạn có 1 việc nhà hôm nay: %1$s</string>
+    <string name="notif_body_multi">Bạn có %1$d việc nhà hôm nay: %2$s</string>
+
+    <string name="app_short_name">Lịch Dọn Nhà</string>
+    <string name="settings_language_title">Ngôn ngữ</string>
+    <string name="settings_language_desc">Chọn ngôn ngữ bạn muốn sử dụng</string>
+    <string name="language_system_default">Ngôn ngữ hệ thống (Mặc định)</string>
+    <string name="language_dialog_title">Chọn ngôn ngữ</string>
+</resources>
