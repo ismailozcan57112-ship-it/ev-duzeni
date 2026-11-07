@@ -11,28 +11,18 @@ platform :ios do
       in_house: false
     )
 
-    keychain_name = "ci_keychain"
-    keychain_password = "ci_password_123"
-    create_keychain(
-      name: keychain_name,
-      password: keychain_password,
-      default_keychain: true,
-      unlock: true,
-      timeout: 3600,
-      lock_when_sleeps: false
-    )
-
+    # 1. Fetch or generate Apple Distribution certificate into default login keychain
     get_certificates(
-      api_key: api_key,
-      keychain_path: ENV["KEYCHAIN_PATH"],
-      keychain_password: keychain_password
+      api_key: api_key
     )
 
+    # 2. Fetch or generate App Store Provisioning Profile
     get_provisioning_profile(
       api_key: api_key,
       app_identifier: "com.evduzeni.planner"
     )
 
+    # 3. Build application IPA
     build_app(
       project: "ios/EvDuzeni.xcodeproj",
       scheme: "EvDuzeni",
@@ -42,6 +32,7 @@ platform :ios do
       output_name: "EvDuzeni.ipa"
     )
 
+    # 4. Upload to TestFlight
     upload_to_testflight(
       api_key: api_key,
       skip_waiting_for_build_processing: true

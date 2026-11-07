@@ -25,6 +25,12 @@ jobs:
           cd ios
           xcodegen generate
 
+      - name: Prepare Keychain
+        run: |
+          security default-keychain -s ~/Library/Keychains/login.keychain-db
+          security unlock-keychain -p "" ~/Library/Keychains/login.keychain-db || true
+          security set-keychain-settings -lut 21600 ~/Library/Keychains/login.keychain-db || true
+
       - name: Run Fastlane to Build and Upload
         env:
           APP_STORE_CONNECT_KEY_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ID }}
