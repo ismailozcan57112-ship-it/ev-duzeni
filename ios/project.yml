@@ -14,7 +14,8 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.evduzeni.planner
         DEVELOPMENT_TEAM: XUVGCYL6L6
-        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGN_IDENTITY: "Apple Distribution"
         MARKETING_VERSION: "1.0.0"
         CURRENT_PROJECT_VERSION: "1"
         GENERATE_INFOPLIST_FILE: NO

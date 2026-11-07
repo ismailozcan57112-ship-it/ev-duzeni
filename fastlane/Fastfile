@@ -11,20 +11,44 @@ platform :ios do
       in_house: false
     )
 
-    key_path = File.expand_path("~/.appstoreconnect/private_keys/AuthKey_#{ENV['APP_STORE_CONNECT_KEY_ID']}.p8")
-    auth_args = "-allowProvisioningUpdates -authenticationKeyID #{ENV['APP_STORE_CONNECT_KEY_ID']} -authenticationKeyIssuerID #{ENV['APP_STORE_CONNECT_ISSUER_ID']} -authenticationKeyPath #{key_path}"
+    # 1. Fetch or generate Distribution Certificate
+    get_certificates(
+      api_key: api_key
+    )
 
+    # 2. Fetch or generate App Store Provisioning Profile
+    get_provisioning_profile(
+      api_key: api_key,
+      app_identifier: "com.evduzeni.planner"
+    )
+
+    # 3. Explicitly configure Xcode project to use the App Store profile
+    update_code_signing_settings(
+      use_automatic_signing: false,
+      path: "ios/EvDuzeni.xcodeproj",
+      team_id: "XUVGCYL6L6",
+      bundle_identifier: "com.evduzeni.planner",
+      profile_name: ENV["SIGH_NAME"],
+      code_sign_identity: "Apple Distribution"
+    )
+
+    # 4. Build application IPA
     build_app(
       project: "ios/EvDuzeni.xcodeproj",
       scheme: "EvDuzeni",
       configuration: "Release",
       export_method: "app-store",
-      xcargs: auth_args,
-      export_xcargs: auth_args,
+      export_options: {
+        signingStyle: "manual",
+        provisioningProfiles: {
+          "com.evduzeni.planner" => ENV["SIGH_NAME"]
+        }
+      },
       output_directory: "build",
       output_name: "EvDuzeni.ipa"
     )
 
+    # 5. Upload to TestFlight
     upload_to_testflight(
       api_key: api_key,
       skip_waiting_for_build_processing: true
