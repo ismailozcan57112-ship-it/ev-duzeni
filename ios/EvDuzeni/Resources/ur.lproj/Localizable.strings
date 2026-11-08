@@ -107,3 +107,9 @@
 "settings_language_desc" = "اپنی پسندیدہ زبان منتخب کریں";
 "language_system_default" = "سسٹم کی زبان (پہلے سے طے شدہ)";
 "language_dialog_title" = "زبان منتخب کریں";
+
+/* Onboarding Buttons */
+"onboarding_btn_next" = "آگے بڑھیں";
+"onboarding_btn_skip" = "چھوڑیں";
+"onboarding_btn_sample_plan" = "نمونہ منصوبے سے شروع کریں";
+"onboarding_btn_start_empty" = "چھوڑیں";

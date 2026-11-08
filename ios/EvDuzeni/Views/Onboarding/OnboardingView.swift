@@ -14,7 +14,7 @@ struct OnboardingView: View {
         VStack {
             HStack {
                 Spacer()
-                Button(loc("onboarding_btn_skip")) {
+                Button(loc("btn_skip_setup")) {
                     viewModel.setOnboardingDone(true)
                 }
                 .font(.system(size: 15, weight: .medium))
@@ -57,7 +57,7 @@ struct OnboardingView: View {
                     Button(action: {
                         withAnimation { currentStep += 1 }
                     }) {
-                        Text(loc("onboarding_btn_next"))
+                        Text(loc("btn_continue"))
                             .font(.system(size: 16, weight: .semibold))
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
@@ -67,9 +67,11 @@ struct OnboardingView: View {
                     }
                 } else {
                     Button(action: {
-                        viewModel.setupSamplePlan()
+                        NotificationManager.shared.requestPermission { _ in
+                            viewModel.setNotificationsEnabled(true)
+                        }
                     }) {
-                        Text(loc("onboarding_btn_sample_plan"))
+                        Text(loc("btn_enable_notifications"))
                             .font(.system(size: 16, weight: .semibold))
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
@@ -79,13 +81,15 @@ struct OnboardingView: View {
                     }
                     
                     Button(action: {
-                        viewModel.setOnboardingDone(true)
+                        viewModel.setupSamplePlan()
                     }) {
-                        Text(loc("onboarding_btn_start_empty"))
-                            .font(.system(size: 15, weight: .medium))
-                            .foregroundColor(AppColors.forestInk)
+                        Text(loc("btn_start_with_starter_plan"))
+                            .font(.system(size: 16, weight: .semibold))
+                            .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
-                            .frame(height: 44)
+                            .frame(height: 52)
+                            .background(AppColors.forestInk)
+                            .cornerRadius(14)
                     }
                 }
             }

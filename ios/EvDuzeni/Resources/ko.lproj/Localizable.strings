@@ -107,3 +107,9 @@
 "settings_language_desc" = "사용할 언어를 선택하세요";
 "language_system_default" = "시스템 언어 (기본값)";
 "language_dialog_title" = "언어 선택";
+
+/* Onboarding Buttons */
+"onboarding_btn_next" = "다음";
+"onboarding_btn_skip" = "건너뛰기";
+"onboarding_btn_sample_plan" = "샘플 플랜으로 시작하기";
+"onboarding_btn_start_empty" = "건너뛰기";

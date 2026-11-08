@@ -107,3 +107,9 @@
 "settings_language_desc" = "Выберите предпочитаемый язык";
 "language_system_default" = "Язык системы (По умолчанию)";
 "language_dialog_title" = "Выбор языка";
+
+/* Onboarding Buttons */
+"onboarding_btn_next" = "Продолжить";
+"onboarding_btn_skip" = "Пропустить";
+"onboarding_btn_sample_plan" = "Начать с готового плана";
+"onboarding_btn_start_empty" = "Пропустить";

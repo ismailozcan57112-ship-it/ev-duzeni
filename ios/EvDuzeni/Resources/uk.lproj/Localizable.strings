@@ -107,3 +107,9 @@
 "settings_language_desc" = "Оберіть бажану мову";
 "language_system_default" = "Мова системи (За замовчуванням)";
 "language_dialog_title" = "Вибір мови";
+
+/* Onboarding Buttons */
+"onboarding_btn_next" = "Продовжити";
+"onboarding_btn_skip" = "Пропустити";
+"onboarding_btn_sample_plan" = "Почати зі зразкового плану";
+"onboarding_btn_start_empty" = "Пропустити";

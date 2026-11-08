@@ -107,3 +107,9 @@
 "settings_language_desc" = "Kies uw voorkeurstaal";
 "language_system_default" = "Systeemtaal (Standaard)";
 "language_dialog_title" = "Selecteer taal";
+
+/* Onboarding Buttons */
+"onboarding_btn_next" = "Doorgaan";
+"onboarding_btn_skip" = "Overslaan";
+"onboarding_btn_sample_plan" = "Begin met Voorbeeldplan";
+"onboarding_btn_start_empty" = "Overslaan";

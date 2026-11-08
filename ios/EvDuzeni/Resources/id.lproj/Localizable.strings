@@ -107,3 +107,9 @@
 "settings_language_desc" = "Pilih bahasa pilihan Anda";
 "language_system_default" = "Bahasa Sistem (Default)";
 "language_dialog_title" = "Pilih Bahasa";
+
+/* Onboarding Buttons */
+"onboarding_btn_next" = "Lanjut";
+"onboarding_btn_skip" = "Lewati";
+"onboarding_btn_sample_plan" = "Mulai dengan Contoh Jadwal";
+"onboarding_btn_start_empty" = "Lewati";

@@ -107,3 +107,9 @@
 "settings_language_desc" = "Chọn ngôn ngữ bạn muốn sử dụng";
 "language_system_default" = "Ngôn ngữ hệ thống (Mặc định)";
 "language_dialog_title" = "Chọn ngôn ngữ";
+
+/* Onboarding Buttons */
+"onboarding_btn_next" = "Tiếp Tục";
+"onboarding_btn_skip" = "Bỏ Qua";
+"onboarding_btn_sample_plan" = "Bắt Đầu Với Mẫu Có Sẵn";
+"onboarding_btn_start_empty" = "Bỏ Qua";

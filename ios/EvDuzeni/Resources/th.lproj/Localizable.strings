@@ -107,3 +107,9 @@
 "settings_language_desc" = "เลือกภาษาที่คุณต้องการ";
 "language_system_default" = "ภาษาของระบบ (ค่าเริ่มต้น)";
 "language_dialog_title" = "เลือกภาษา";
+
+/* Onboarding Buttons */
+"onboarding_btn_next" = "ดำเนินการต่อ";
+"onboarding_btn_skip" = "ข้าม";
+"onboarding_btn_sample_plan" = "เริ่มต้นด้วยแผนตัวอย่าง";
+"onboarding_btn_start_empty" = "ข้าม";

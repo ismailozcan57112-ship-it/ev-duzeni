@@ -107,3 +107,9 @@
 "settings_language_desc" = "Select your preferred language";
 "language_system_default" = "System Default";
 "language_dialog_title" = "Select Language";
+
+/* Onboarding Buttons */
+"onboarding_btn_next" = "Continue";
+"onboarding_btn_skip" = "Skip Setup";
+"onboarding_btn_sample_plan" = "Start with Sample Plan";
+"onboarding_btn_start_empty" = "Skip Setup";

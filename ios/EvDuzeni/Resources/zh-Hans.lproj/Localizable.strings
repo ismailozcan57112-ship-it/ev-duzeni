@@ -107,3 +107,9 @@
 "settings_language_desc" = "选择您偏好的语言";
 "language_system_default" = "系统默认语言";
 "language_dialog_title" = "选择语言";
+
+/* Onboarding Buttons */
+"onboarding_btn_next" = "继续";
+"onboarding_btn_skip" = "跳过";
+"onboarding_btn_sample_plan" = "使用预设模板开始";
+"onboarding_btn_start_empty" = "跳过";

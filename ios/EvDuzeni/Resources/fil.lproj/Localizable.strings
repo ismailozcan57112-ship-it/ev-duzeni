@@ -107,3 +107,9 @@
 "settings_language_desc" = "Piliin ang iyong gustong wika";
 "language_system_default" = "Wika ng System (Default)";
 "language_dialog_title" = "Pumili ng Wika";
+
+/* Onboarding Buttons */
+"onboarding_btn_next" = "Magpatuloy";
+"onboarding_btn_skip" = "Laktawan";
+"onboarding_btn_sample_plan" = "Magsimula Gamit ang Sampol na Plano";
+"onboarding_btn_start_empty" = "Laktawan";

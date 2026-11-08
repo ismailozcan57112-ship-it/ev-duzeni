@@ -107,3 +107,9 @@
 "settings_language_desc" = "اختر لغة التطبيق المفضلة";
 "language_system_default" = "لغة النظام (تلقائي)";
 "language_dialog_title" = "اختيار اللغة";
+
+/* Onboarding Buttons */
+"onboarding_btn_next" = "متابعة";
+"onboarding_btn_skip" = "تخطي";
+"onboarding_btn_sample_plan" = "البدء بخطة نموذجية";
+"onboarding_btn_start_empty" = "تخطي";

@@ -107,3 +107,9 @@
 "settings_language_desc" = "Tercih ettiğiniz dili seçin";
 "language_system_default" = "Sistem Dili (Varsayılan)";
 "language_dialog_title" = "Dil Seçin";
+
+/* Onboarding Buttons */
+"onboarding_btn_next" = "Devam Et";
+"onboarding_btn_skip" = "Kurulumu Atla";
+"onboarding_btn_sample_plan" = "Hazır Planla Başla";
+"onboarding_btn_start_empty" = "Kurulumu Atla";

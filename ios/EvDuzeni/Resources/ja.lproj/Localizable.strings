@@ -107,3 +107,9 @@
 "settings_language_desc" = "アプリの表示言語を選択";
 "language_system_default" = "システム言語（デフォルト）";
 "language_dialog_title" = "言語を選択";
+
+/* Onboarding Buttons */
+"onboarding_btn_next" = "次へ";
+"onboarding_btn_skip" = "スキップ";
+"onboarding_btn_sample_plan" = "サンプル計画で始める";
+"onboarding_btn_start_empty" = "スキップ";
