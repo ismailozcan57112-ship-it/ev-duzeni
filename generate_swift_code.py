@@ -1631,7 +1631,7 @@ write_file("Info.plist", """
     <key>CFBundleShortVersionString</key>
     <string>1.0.0</string>
     <key>CFBundleVersion</key>
-    <string>1</string>
+    <string>$(CURRENT_PROJECT_VERSION)</string>
     <key>CFBundleDisplayName</key>
     <string>Ev Düzeni</string>
     <key>LSRequiresIPhoneOS</key>
@@ -1640,12 +1640,22 @@ write_file("Info.plist", """
     <false/>
     <key>UILaunchScreen</key>
     <dict/>
+    <key>UIRequiresFullScreen</key>
+    <true/>
     <key>UISupportedInterfaceOrientations</key>
     <array>
         <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
 </dict>
 </plist>
 """)
 
 print("Successfully generated all Swift source files and Info.plist.")
+
